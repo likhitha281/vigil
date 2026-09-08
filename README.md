@@ -7,7 +7,7 @@ stream. Vigil polls GitHub's public Events API continuously and flags
 repos — while staying inside the API's real rate limits, which is the
 actual engineering problem this project is about.
 
-**[Live dashboard](docs/index.html)** — updated every 30 minutes by a
+**[Live dashboard](https://likhitha281.github.io/vigil/)** — updated every 30 minutes by a
 scheduled GitHub Actions workflow. ·
 [![tests](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
 
