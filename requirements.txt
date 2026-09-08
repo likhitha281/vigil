@@ -1,0 +1,10 @@
+# Core Tier 1/Tier 2 pipeline, fixtures, and the live poller need NOTHING
+# beyond the Python 3 standard library -- these are only for the optional
+# pieces layered on top.
+
+# tests/
+pytest>=7.0
+
+# scripts/train_ml_tier1.py, src/ml_tier1.py, scripts/compare_tier1_approaches.py
+scikit-learn>=1.3
+joblib>=1.3

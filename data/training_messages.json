@@ -1,0 +1,1026 @@
+[
+  {
+    "message": "update dependencies to latest versions",
+    "label": "benign"
+  },
+  {
+    "message": "oops committed database password, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - access key was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, api key was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed credential, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "fix: access key was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "improve error handling in api client",
+    "label": "benign"
+  },
+  {
+    "message": "fix typo in README",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, database password got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked password in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has slack token in it",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed password, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "migrate api key to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed credential to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "migrate secret to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "clean up unused api key references",
+    "label": "benign"
+  },
+  {
+    "message": "hotfix - password was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "rotate credential as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked password",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for api key rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "clean up unused token references",
+    "label": "benign"
+  },
+  {
+    "message": "add documentation for credential rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "fix: private key was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed credential",
+    "label": "risky"
+  },
+  {
+    "message": "fix: api key was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude slack token file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "rotate aws key as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked slack token",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused stripe key references",
+    "label": "benign"
+  },
+  {
+    "message": "update .gitignore to exclude token file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "refactor sidebar component to use hooks",
+    "label": "benign"
+  },
+  {
+    "message": "removing secret that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed database password",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, aws key was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "migrate access key to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed password",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused access key references",
+    "label": "benign"
+  },
+  {
+    "message": "hotfix - token was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "update CI pipeline configuration",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed token to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has auth token in it",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude credential file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed api key",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for token rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "rotate auth token as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, auth token got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "revert commit that leaked credential",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - database password was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "accidentally committed password to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed aws key",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, slack token now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "remove secret, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "remove database password, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "please ignore last commit, has stripe key in it",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, private key was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "oh no, private key got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "improve accessibility on settings page",
+    "label": "benign"
+  },
+  {
+    "message": "removing auth token that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "migrate private key to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "removing aws key that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "revert commit that leaked access key",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed token, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked token in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "fix: aws key was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, credential was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed stripe key, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - auth token was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "merge branch 'feature/new-dashboard'",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed private key to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for access key rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, stripe key got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has aws key in it",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed secret, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude stripe key file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "rotate password as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "migrate token to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked token",
+    "label": "risky"
+  },
+  {
+    "message": "rotate api key as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed slack token",
+    "label": "risky"
+  },
+  {
+    "message": "oh no, slack token got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has token in it",
+    "label": "risky"
+  },
+  {
+    "message": "migrate database password to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "fix: credential was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, stripe key now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "fix: database password was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "oh no, secret got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has password in it",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed aws key",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude secret file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "add null check before accessing user profile",
+    "label": "benign"
+  },
+  {
+    "message": "my bad, token was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "accidentally committed database password to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused database password references",
+    "label": "benign"
+  },
+  {
+    "message": "oops committed api key, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "fix off-by-one error in pagination",
+    "label": "benign"
+  },
+  {
+    "message": "please ignore last commit, has secret in it",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for private key rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, aws key got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - stripe key was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "rotate access key as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "fix: stripe key was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - secret was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "accidentally committed stripe key to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused secret references",
+    "label": "benign"
+  },
+  {
+    "message": "update .gitignore to exclude access key file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "add documentation for stripe key rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "please ignore last commit, has credential in it",
+    "label": "risky"
+  },
+  {
+    "message": "removing api key that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has api key in it",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused password references",
+    "label": "benign"
+  },
+  {
+    "message": "add integration tests for checkout flow",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed auth token to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "removing password that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for slack token rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "fix broken link in docs",
+    "label": "benign"
+  },
+  {
+    "message": "sorry, leaked api key in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, private key now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "clean up unused private key references",
+    "label": "benign"
+  },
+  {
+    "message": "fix: token was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "add unit tests for auth module",
+    "label": "benign"
+  },
+  {
+    "message": "add documentation for database password rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, api key now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "clean up unused slack token references",
+    "label": "benign"
+  },
+  {
+    "message": "remove api key, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed access key",
+    "label": "risky"
+  },
+  {
+    "message": "remove auth token, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked secret",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed api key",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused aws key references",
+    "label": "benign"
+  },
+  {
+    "message": "please ignore last commit, has private key in it",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, token now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, database password now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "fix memory leak in image processing pipeline",
+    "label": "benign"
+  },
+  {
+    "message": "remove token, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked aws key",
+    "label": "risky"
+  },
+  {
+    "message": "removing private key that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, password was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "add dark mode support",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, auth token now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, api key got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, credential now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "hotfix - credential was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "please ignore last commit, has access key in it",
+    "label": "risky"
+  },
+  {
+    "message": "remove aws key, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "remove credential, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "sorry, leaked private key in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed token",
+    "label": "risky"
+  },
+  {
+    "message": "rotate slack token as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "hotfix - private key was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "fix: auth token was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "release v2.3.1",
+    "label": "benign"
+  },
+  {
+    "message": "update .gitignore to exclude aws key file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed secret",
+    "label": "risky"
+  },
+  {
+    "message": "fix: slack token was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused auth token references",
+    "label": "benign"
+  },
+  {
+    "message": "removing stripe key that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, database password was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "migrate auth token to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked stripe key",
+    "label": "risky"
+  },
+  {
+    "message": "migrate password to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "fix timezone bug in scheduling logic",
+    "label": "benign"
+  },
+  {
+    "message": "removing token that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "oh no, access key got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "add retry logic for flaky network calls",
+    "label": "benign"
+  },
+  {
+    "message": "remove slack token, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed private key",
+    "label": "risky"
+  },
+  {
+    "message": "rotate database password as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "my bad, auth token was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked credential in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed private key",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed stripe key",
+    "label": "risky"
+  },
+  {
+    "message": "oh no, credential got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed database password",
+    "label": "risky"
+  },
+  {
+    "message": "rotate private key as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked auth token",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for auth token rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "add documentation for aws key rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed aws key to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "fix linting errors across codebase",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, aws key now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "fix: secret was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked stripe key in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "migrate aws key to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, access key now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed credential",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude api key file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "sorry, leaked aws key in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "remove password, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed auth token",
+    "label": "risky"
+  },
+  {
+    "message": "rotate secret as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "rotate token as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "fix: password was exposed in config",
+    "label": "risky"
+  },
+  {
+    "message": "removing database password that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed auth token",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - api key was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "accidentally committed access key to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "removing credential that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "revert commit that leaked database password",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude private key file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "oops committed slack token, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, access key was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "refactor database connection pooling",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed token",
+    "label": "risky"
+  },
+  {
+    "message": "urgent: remove exposed access key",
+    "label": "risky"
+  },
+  {
+    "message": "accidentally committed api key to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - aws key was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "improve test coverage for payments module",
+    "label": "benign"
+  },
+  {
+    "message": "update contributor guidelines",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed secret",
+    "label": "risky"
+  },
+  {
+    "message": "refactor config loading, password now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "add logging to background worker",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, password got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "clean up unused credential references",
+    "label": "benign"
+  },
+  {
+    "message": "urgent: remove exposed password",
+    "label": "risky"
+  },
+  {
+    "message": "update changelog for this release",
+    "label": "benign"
+  },
+  {
+    "message": "migrate stripe key to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "oh no, token got pushed by mistake",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for secret rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "refactor config loading, secret now injected at runtime",
+    "label": "benign"
+  },
+  {
+    "message": "oops committed aws key, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "add documentation for password rotation process",
+    "label": "benign"
+  },
+  {
+    "message": "my bad, slack token was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "remove private key, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "revert commit that leaked private key",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked auth token in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "hotfix - slack token was public in the repo history",
+    "label": "risky"
+  },
+  {
+    "message": "improve loading spinner animation",
+    "label": "benign"
+  },
+  {
+    "message": "migrate slack token to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "rotate stripe key as part of routine security review",
+    "label": "benign"
+  },
+  {
+    "message": "update .gitignore to exclude password file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "sorry, leaked secret in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "removing slack token that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "update license year",
+    "label": "benign"
+  },
+  {
+    "message": "remove stripe key, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "please ignore last commit, has database password in it",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked slack token in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked access key in last commit",
+    "label": "risky"
+  },
+  {
+    "message": "whoops accidentally pushed slack token",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed access key, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "oops committed auth token, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "revert commit that leaked api key",
+    "label": "risky"
+  },
+  {
+    "message": "remove access key, use environment variable instead",
+    "label": "benign"
+  },
+  {
+    "message": "whoops accidentally pushed stripe key",
+    "label": "risky"
+  },
+  {
+    "message": "removing access key that got committed by accident",
+    "label": "risky"
+  },
+  {
+    "message": "bump dependency versions",
+    "label": "benign"
+  },
+  {
+    "message": "clean up dead code in legacy module",
+    "label": "benign"
+  },
+  {
+    "message": "migrate credential to secrets manager",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed secret to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude auth token file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "accidentally committed slack token to the repo",
+    "label": "risky"
+  },
+  {
+    "message": "improve build times with better caching",
+    "label": "benign"
+  },
+  {
+    "message": "my bad, secret was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "my bad, stripe key was in that diff",
+    "label": "risky"
+  },
+  {
+    "message": "update .gitignore to exclude database password file going forward",
+    "label": "benign"
+  },
+  {
+    "message": "oops committed private key, removing now",
+    "label": "risky"
+  },
+  {
+    "message": "sorry, leaked database password in last commit",
+    "label": "risky"
+  }
+]

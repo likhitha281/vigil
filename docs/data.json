@@ -1,0 +1,9 @@
+{
+  "alerts": [],
+  "stats": {
+    "total_events_seen": 0,
+    "total_alerts": 0,
+    "cycles_run": 0,
+    "last_updated": null
+  }
+}

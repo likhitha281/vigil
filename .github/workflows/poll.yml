@@ -1,0 +1,37 @@
+name: Vigil live poll
+
+# Runs on a schedule so Vigil is actually watching GitHub's public event
+# stream continuously, not just when someone happens to run it locally.
+# Uses the Actions-provided GITHUB_TOKEN (no manual secret setup needed) --
+# it's a real GitHub token, sufficient for reading public events/compare/commit data.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes -- GitHub's minimum practical interval for free-tier scheduled workflows
+  workflow_dispatch: {}       # allows manually triggering a run from the Actions tab
+
+permissions:
+  contents: write            # needed to commit updated data/ and docs/data.json back to the repo
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run one polling cycle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/run_and_log.py
+
+      - name: Commit updated alert log and dashboard data
+        run: |
+          git config user.name "vigil-bot"
+          git config user.email "vigil-bot@users.noreply.github.com"
+          git add data/alerts.jsonl data/poll_state.json docs/data.json
+          git diff --staged --quiet || git commit -m "Vigil poll cycle: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

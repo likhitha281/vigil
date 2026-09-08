@@ -1,0 +1,838 @@
+[
+  {
+    "name": "clean_normal",
+    "should_alert": false,
+    "event_sequence": [
+      {
+        "id": "1001",
+        "type": "PushEvent",
+        "actor": {
+          "login": "alice"
+        },
+        "repo": {
+          "name": "alice/blog"
+        },
+        "payload": {
+          "push_id": 100100,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "fix typo in README",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1": "--- a/README.md\n+++ b/README.md\n-helllo\n+hello\n"
+    }
+  },
+  {
+    "name": "secret_with_suspicious_msg",
+    "should_alert": true,
+    "event_sequence": [
+      {
+        "id": "1002",
+        "type": "PushEvent",
+        "actor": {
+          "login": "bob"
+        },
+        "repo": {
+          "name": "bob/infra"
+        },
+        "payload": {
+          "push_id": 100200,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "oops committed aws key, removing now",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2": "--- a/config.py\n+++ b/config.py\n-aws_key = ''\n+aws_access_key_id = 'AKIAABCDEFGHIJKLMNOP'\n"
+    }
+  },
+  {
+    "name": "secret_with_benign_msg",
+    "should_alert": true,
+    "event_sequence": [
+      {
+        "id": "1003",
+        "type": "PushEvent",
+        "actor": {
+          "login": "carol"
+        },
+        "repo": {
+          "name": "carol/webapp"
+        },
+        "payload": {
+          "push_id": 100300,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update deployment config",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3": "--- a/config.py\n+++ b/config.py\n-aws_key = ''\n+aws_access_key_id = 'AKIAABCDEFGHIJKLMNOP'\n"
+    }
+  },
+  {
+    "name": "honest_credential_rotation",
+    "should_alert": false,
+    "event_sequence": [
+      {
+        "id": "1004",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dave"
+        },
+        "repo": {
+          "name": "dave/tools"
+        },
+        "payload": {
+          "push_id": 100400,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "remove secret from config, use env var instead",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4": "--- a/config.py\n+++ b/config.py\n-aws_access_key_id = os.environ['LEGACY_PLACEHOLDER_UNSET']\n+aws_access_key_id = os.environ['AWS_ACCESS_KEY_ID']\n"
+    }
+  },
+  {
+    "name": "silent_force_push",
+    "should_alert": true,
+    "event_sequence": [
+      {
+        "id": "1005",
+        "type": "PushEvent",
+        "actor": {
+          "login": "erin"
+        },
+        "repo": {
+          "name": "erin/library"
+        },
+        "payload": {
+          "push_id": 100500,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "clean up commit history",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      }
+    ],
+    "compare_result": {
+      "status": "diverged"
+    },
+    "commit_patches": {
+      "e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5": "--- a/lib.py\n+++ b/lib.py\n-old\n+new\n"
+    }
+  },
+  {
+    "name": "malicious_burst",
+    "should_alert": true,
+    "event_sequence": [
+      {
+        "id": "2000",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo0"
+        },
+        "payload": {
+          "push_id": 200000,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "0000000000000000000000000000000000000000",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/0000000000000000000000000000000000000000"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      },
+      {
+        "id": "2001",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo1"
+        },
+        "payload": {
+          "push_id": 200100,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "1111111111111111111111111111111111111111",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/1111111111111111111111111111111111111111"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:01Z"
+      },
+      {
+        "id": "2002",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo2"
+        },
+        "payload": {
+          "push_id": 200200,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "2222222222222222222222222222222222222222",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/2222222222222222222222222222222222222222"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:02Z"
+      },
+      {
+        "id": "2003",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo3"
+        },
+        "payload": {
+          "push_id": 200300,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "3333333333333333333333333333333333333333",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/3333333333333333333333333333333333333333"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:03Z"
+      },
+      {
+        "id": "2004",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo4"
+        },
+        "payload": {
+          "push_id": 200400,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "4444444444444444444444444444444444444444",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/4444444444444444444444444444444444444444"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:04Z"
+      },
+      {
+        "id": "2005",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo5"
+        },
+        "payload": {
+          "push_id": 200500,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "5555555555555555555555555555555555555555",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/5555555555555555555555555555555555555555"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:05Z"
+      },
+      {
+        "id": "2006",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo6"
+        },
+        "payload": {
+          "push_id": 200600,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "6666666666666666666666666666666666666666",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/6666666666666666666666666666666666666666"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:06Z"
+      },
+      {
+        "id": "2007",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo7"
+        },
+        "payload": {
+          "push_id": 200700,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "7777777777777777777777777777777777777777",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/7777777777777777777777777777777777777777"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:07Z"
+      },
+      {
+        "id": "2008",
+        "type": "PushEvent",
+        "actor": {
+          "login": "mallory"
+        },
+        "repo": {
+          "name": "someorg/repo8"
+        },
+        "payload": {
+          "push_id": 200800,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "8888888888888888888888888888888888888888",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "update",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/8888888888888888888888888888888888888888"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:08Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "0000000000000000000000000000000000000000": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "1111111111111111111111111111111111111111": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "2222222222222222222222222222222222222222": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "3333333333333333333333333333333333333333": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "4444444444444444444444444444444444444444": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "5555555555555555555555555555555555555555": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "6666666666666666666666666666666666666666": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "7777777777777777777777777777777777777777": "--- a/f\n+++ b/f\n-x\n+y\n",
+      "8888888888888888888888888888888888888888": "--- a/f\n+++ b/f\n-x\n+y\n"
+    }
+  },
+  {
+    "name": "benign_bot_burst",
+    "should_alert": false,
+    "event_sequence": [
+      {
+        "id": "3000",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo0"
+        },
+        "payload": {
+          "push_id": 300000,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb0bb0bb0bb0bb0bb0bb0bb0bb0bb0",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb0bb0bb0bb0bb0bb0bb0bb0bb0bb0"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:00Z"
+      },
+      {
+        "id": "3001",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo1"
+        },
+        "payload": {
+          "push_id": 300100,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb1bb1bb1bb1bb1bb1bb1bb1bb1bb1",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb1bb1bb1bb1bb1bb1bb1bb1bb1bb1"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:01Z"
+      },
+      {
+        "id": "3002",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo2"
+        },
+        "payload": {
+          "push_id": 300200,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb2bb2bb2bb2bb2bb2bb2bb2bb2bb2",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb2bb2bb2bb2bb2bb2bb2bb2bb2bb2"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:02Z"
+      },
+      {
+        "id": "3003",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo3"
+        },
+        "payload": {
+          "push_id": 300300,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb3bb3bb3bb3bb3bb3bb3bb3bb3bb3",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb3bb3bb3bb3bb3bb3bb3bb3bb3bb3"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:03Z"
+      },
+      {
+        "id": "3004",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo4"
+        },
+        "payload": {
+          "push_id": 300400,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb4bb4bb4bb4bb4bb4bb4bb4bb4bb4",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb4bb4bb4bb4bb4bb4bb4bb4bb4bb4"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:04Z"
+      },
+      {
+        "id": "3005",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo5"
+        },
+        "payload": {
+          "push_id": 300500,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb5bb5bb5bb5bb5bb5bb5bb5bb5bb5",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb5bb5bb5bb5bb5bb5bb5bb5bb5bb5"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:05Z"
+      },
+      {
+        "id": "3006",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo6"
+        },
+        "payload": {
+          "push_id": 300600,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb6bb6bb6bb6bb6bb6bb6bb6bb6bb6",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb6bb6bb6bb6bb6bb6bb6bb6bb6bb6"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:06Z"
+      },
+      {
+        "id": "3007",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo7"
+        },
+        "payload": {
+          "push_id": 300700,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb7bb7bb7bb7bb7bb7bb7bb7bb7bb7",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb7bb7bb7bb7bb7bb7bb7bb7bb7bb7"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:07Z"
+      },
+      {
+        "id": "3008",
+        "type": "PushEvent",
+        "actor": {
+          "login": "dependency-update-bot"
+        },
+        "repo": {
+          "name": "someorg/repo8"
+        },
+        "payload": {
+          "push_id": 300800,
+          "size": 1,
+          "distinct_size": 1,
+          "ref": "refs/heads/main",
+          "head": "1111111111111111111111111111111111111111",
+          "before": "0000000000000000000000000000000000000000",
+          "commits": [
+            {
+              "sha": "bb8bb8bb8bb8bb8bb8bb8bb8bb8bb8",
+              "author": {
+                "name": "test-author",
+                "email": "test@example.com"
+              },
+              "message": "chore: bump dependency versions",
+              "distinct": true,
+              "url": "https://api.github.com/repos/octocat/demo/commits/bb8bb8bb8bb8bb8bb8bb8bb8bb8bb8"
+            }
+          ]
+        },
+        "public": true,
+        "created_at": "2026-09-07T12:00:08Z"
+      }
+    ],
+    "compare_result": {
+      "status": "ahead"
+    },
+    "commit_patches": {
+      "bb0bb0bb0bb0bb0bb0bb0bb0bb0bb0": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb1bb1bb1bb1bb1bb1bb1bb1bb1bb1": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb2bb2bb2bb2bb2bb2bb2bb2bb2bb2": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb3bb3bb3bb3bb3bb3bb3bb3bb3bb3": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb4bb4bb4bb4bb4bb4bb4bb4bb4bb4": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb5bb5bb5bb5bb5bb5bb5bb5bb5bb5": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb6bb6bb6bb6bb6bb6bb6bb6bb6bb6": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb7bb7bb7bb7bb7bb7bb7bb7bb7bb7": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n",
+      "bb8bb8bb8bb8bb8bb8bb8bb8bb8bb8": "--- a/package.json\n+++ b/package.json\n-1.0.0\n+1.0.1\n"
+    }
+  }
+]
