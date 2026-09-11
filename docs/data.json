@@ -1,9 +1,32 @@
 {
-  "alerts": [],
+  "alerts": [
+    {
+      "timestamp": "2026-09-11T07:23:23.198426+00:00",
+      "event_id": "20773923970",
+      "repo": "angelosalvettibr/tempo-real-mt",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-11T07:23:23.733504+00:00",
+      "event_id": "20773924015",
+      "repo": "Morrison-Lab/gha",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    }
+  ],
   "stats": {
-    "total_events_seen": 1687,
-    "total_alerts": 0,
-    "cycles_run": 18,
-    "last_updated": "2026-09-11T02:22:36.522982+00:00"
+    "total_events_seen": 1784,
+    "total_alerts": 2,
+    "cycles_run": 19,
+    "last_updated": "2026-09-11T07:23:24.239197+00:00"
   }
 }
