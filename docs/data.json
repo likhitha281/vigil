@@ -76,12 +76,89 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:47.938583+00:00",
+      "event_id": "20947176389",
+      "repo": "umitsahin1/coin-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:48.236298+00:00",
+      "event_id": "20947176233",
+      "repo": "NevixAA/wowza-betting",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:48.517598+00:00",
+      "event_id": "20947176284",
+      "repo": "Jarv1s0/RuleList",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:48.845070+00:00",
+      "event_id": "20947176228",
+      "repo": "RyanWZRD/wavelength.live",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:49.081986+00:00",
+      "event_id": "20947176185",
+      "repo": "kvrmsp18/stockmarket-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:49.392780+00:00",
+      "event_id": "20947176179",
+      "repo": "thenights20/viagens",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T21:46:49.693256+00:00",
+      "event_id": "20947176251",
+      "repo": "droids-164146hooking/Doloc-Town-Trainer-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 2429,
-    "total_alerts": 7,
-    "cycles_run": 26,
-    "last_updated": "2026-09-12T17:35:26.763777+00:00"
+    "total_events_seen": 2522,
+    "total_alerts": 14,
+    "cycles_run": 27,
+    "last_updated": "2026-09-12T21:46:49.963560+00:00"
   }
 }
