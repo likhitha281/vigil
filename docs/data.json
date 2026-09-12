@@ -21,12 +21,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T17:35:23.822172+00:00",
+      "event_id": "20929906532",
+      "repo": "isaacnakhle/sorare-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T17:35:24.324057+00:00",
+      "event_id": "20929906801",
+      "repo": "kakisu00/test-02",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T17:35:24.868482+00:00",
+      "event_id": "20929906800",
+      "repo": "open-telemetry/shared-workflows",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T17:35:25.422484+00:00",
+      "event_id": "20929906536",
+      "repo": "jissifamily1-cloud/news-telegram-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T17:35:26.372521+00:00",
+      "event_id": "20929906484",
+      "repo": "Gabriel1590/tasas",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 2340,
-    "total_alerts": 2,
-    "cycles_run": 25,
-    "last_updated": "2026-09-12T11:41:00.163389+00:00"
+    "total_events_seen": 2429,
+    "total_alerts": 7,
+    "cycles_run": 26,
+    "last_updated": "2026-09-12T17:35:26.763777+00:00"
   }
 }
