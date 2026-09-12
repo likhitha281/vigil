@@ -153,12 +153,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T23:47:51.490644+00:00",
+      "event_id": "20955062663",
+      "repo": "D10Scot/Dispatcharr",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T23:47:52.116669+00:00",
+      "event_id": "20955062548",
+      "repo": "t6vb9ns645-boop/ecoflow",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T23:47:52.619094+00:00",
+      "event_id": "20955062645",
+      "repo": "as3562783/iptv-api",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-12T23:47:53.081500+00:00",
+      "event_id": "20955062657",
+      "repo": "Warlockx/koliseu-guild-deaths",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 2522,
-    "total_alerts": 14,
-    "cycles_run": 27,
-    "last_updated": "2026-09-12T21:46:49.963560+00:00"
+    "total_events_seen": 2608,
+    "total_alerts": 18,
+    "cycles_run": 28,
+    "last_updated": "2026-09-12T23:47:53.517306+00:00"
   }
 }
