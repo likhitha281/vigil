@@ -219,12 +219,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T16:59:52.729952+00:00",
+      "event_id": "21005325691",
+      "repo": "barsikcomb933/Beneath-A-Steel-Sky-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T16:59:53.409157+00:00",
+      "event_id": "21005325687",
+      "repo": "michaelbel/news",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 2788,
-    "total_alerts": 20,
-    "cycles_run": 30,
-    "last_updated": "2026-09-13T07:36:38.125915+00:00"
+    "total_events_seen": 2879,
+    "total_alerts": 22,
+    "cycles_run": 31,
+    "last_updated": "2026-09-13T16:59:53.924666+00:00"
   }
 }
