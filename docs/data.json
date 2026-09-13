@@ -197,12 +197,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T02:28:48.544330+00:00",
+      "event_id": "20963181478",
+      "repo": "bera993258-design/atr-alert-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T02:28:49.248257+00:00",
+      "event_id": "20963181481",
+      "repo": "JAMHOP91/pokemon-tcg-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 2608,
-    "total_alerts": 18,
-    "cycles_run": 28,
-    "last_updated": "2026-09-12T23:47:53.517306+00:00"
+    "total_events_seen": 2700,
+    "total_alerts": 20,
+    "cycles_run": 29,
+    "last_updated": "2026-09-13T02:28:49.740018+00:00"
   }
 }
