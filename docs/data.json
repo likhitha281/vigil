@@ -241,12 +241,89 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:49.978749+00:00",
+      "event_id": "21031515203",
+      "repo": "laluyadavreturn-dotcom/XAUUSDT-paper-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:50.283888+00:00",
+      "event_id": "21031515197",
+      "repo": "born2coder/boat-race-edge-runner",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:50.631205+00:00",
+      "event_id": "21031515091",
+      "repo": "0xlegionz/myPRoject",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:50.929917+00:00",
+      "event_id": "21031515080",
+      "repo": "emowbaik/postnotify_bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:51.253434+00:00",
+      "event_id": "21031515051",
+      "repo": "jokeprimmest-1/Big-Ambitions-Trainer-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:51.579845+00:00",
+      "event_id": "21031515043",
+      "repo": "crow-iuhgbuh/Dillo-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-13T23:49:51.938157+00:00",
+      "event_id": "21031515183",
+      "repo": "y-ykym/tennis-court-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 3067,
-    "total_alerts": 22,
-    "cycles_run": 33,
-    "last_updated": "2026-09-13T21:32:11.708320+00:00"
+    "total_events_seen": 3157,
+    "total_alerts": 29,
+    "cycles_run": 34,
+    "last_updated": "2026-09-13T23:49:52.281070+00:00"
   }
 }
