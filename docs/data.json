@@ -318,12 +318,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-14T22:53:19.515208+00:00",
+      "event_id": "21136444195",
+      "repo": "trianglestrip/trianglestrip.github.io",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-14T22:53:19.873233+00:00",
+      "event_id": "21136444241",
+      "repo": "pewdude82/My2ANewsFeed",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-14T22:53:20.228431+00:00",
+      "event_id": "21136444247",
+      "repo": "3idistribuidora2025-lgtm/dashboard-rma",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 3437,
-    "total_alerts": 29,
-    "cycles_run": 37,
-    "last_updated": "2026-09-14T19:53:53.376701+00:00"
+    "total_events_seen": 3522,
+    "total_alerts": 32,
+    "cycles_run": 38,
+    "last_updated": "2026-09-14T22:53:20.634106+00:00"
   }
 }
