@@ -464,9 +464,9 @@
     }
   ],
   "stats": {
-    "total_events_seen": 3891,
+    "total_events_seen": 3973,
     "total_alerts": 42,
-    "cycles_run": 42,
-    "last_updated": "2026-09-15T16:19:53.091109+00:00"
+    "cycles_run": 43,
+    "last_updated": "2026-09-15T19:45:56.839702+00:00"
   }
 }
