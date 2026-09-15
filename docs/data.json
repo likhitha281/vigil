@@ -417,12 +417,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-15T16:19:51.629756+00:00",
+      "event_id": "21209758916",
+      "repo": "slippax/lotus-ge",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-15T16:19:52.217551+00:00",
+      "event_id": "21209758891",
+      "repo": "pauloconnor/CRDs-catalog",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-15T16:19:52.506200+00:00",
+      "event_id": "21209758857",
+      "repo": "NAMKx10/najiproject5",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-15T16:19:52.791986+00:00",
+      "event_id": "21209758855",
+      "repo": "willlarkin003-bot/fairway-board",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 3799,
-    "total_alerts": 38,
-    "cycles_run": 41,
-    "last_updated": "2026-09-15T11:57:24.120300+00:00"
+    "total_events_seen": 3891,
+    "total_alerts": 42,
+    "cycles_run": 42,
+    "last_updated": "2026-09-15T16:19:53.091109+00:00"
   }
 }
