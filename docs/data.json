@@ -461,12 +461,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-16T05:35:54.287572+00:00",
+      "event_id": "21264934941",
+      "repo": "Configfree/Khabar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-16T05:35:54.695757+00:00",
+      "event_id": "21264934988",
+      "repo": "x-cmd-install/sc-im",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-16T05:35:55.110775+00:00",
+      "event_id": "21264934999",
+      "repo": "Miguel14zx/Gothic-1-Remake-Enhanced-Mods",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-16T05:35:55.575737+00:00",
+      "event_id": "21264935005",
+      "repo": "naven-pillai/sitewatch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 4063,
-    "total_alerts": 42,
-    "cycles_run": 44,
-    "last_updated": "2026-09-16T00:56:16.435826+00:00"
+    "total_events_seen": 4150,
+    "total_alerts": 46,
+    "cycles_run": 45,
+    "last_updated": "2026-09-16T05:35:56.029201+00:00"
   }
 }
