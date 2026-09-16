@@ -505,12 +505,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-16T21:58:46.567053+00:00",
+      "event_id": "21337353791",
+      "repo": "amg1215/overwatch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 4423,
-    "total_alerts": 46,
-    "cycles_run": 48,
-    "last_updated": "2026-09-16T18:59:38.380880+00:00"
+    "total_events_seen": 4513,
+    "total_alerts": 47,
+    "cycles_run": 49,
+    "last_updated": "2026-09-16T21:58:47.061775+00:00"
   }
 }
