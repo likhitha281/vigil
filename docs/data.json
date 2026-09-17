@@ -516,12 +516,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T05:04:27.601671+00:00",
+      "event_id": "21363567305",
+      "repo": "edoardodurantebis-sudo/uk-official",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T05:04:28.056768+00:00",
+      "event_id": "21363567328",
+      "repo": "StevenWang-CY/StevenWang-CY",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 4513,
-    "total_alerts": 47,
-    "cycles_run": 49,
-    "last_updated": "2026-09-16T21:58:47.061775+00:00"
+    "total_events_seen": 4607,
+    "total_alerts": 49,
+    "cycles_run": 50,
+    "last_updated": "2026-09-17T05:04:28.406017+00:00"
   }
 }
