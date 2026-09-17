@@ -16,7 +16,7 @@ module can be tested deterministically against fixtures without hitting the
 real network -- see fixtures/generate_fixtures.py and src/run_fixtures.py.
 """
 from secret_patterns import scan_text
-
+import urllib.error
 
 class Budget:
     """Tracks how many Tier 2 API calls remain in the current polling cycle."""
@@ -54,7 +54,15 @@ def check_diverged(event, budget, fetch_compare):
     if not before or not head:
         return True, False
 
-    result = fetch_compare(owner, repo, before, head)
+    try:
+      result = fetch_compare(owner, repo, before, head)
+    except urllib.error.HTTPError as e:
+      if e.code in (403, 404, 409, 422):
+        # The repository/commit may have disappeared, become inaccessible,
+        # or GitHub may not be able to perform this comparison.
+        # Skip Tier 2 for this event instead of killing the whole poll.
+        return 0, False
+      raise
     return True, (result.get("status") == "diverged")
 
 
