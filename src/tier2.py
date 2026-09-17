@@ -81,7 +81,12 @@ def scan_commits_for_secrets(event, commit_shas, budget, fetch_commit_patch):
     for sha in commit_shas:
         if not budget.spend(1):
             break
-        patch_text = fetch_commit_patch(owner, repo, sha)
+        try:
+            patch_text = fetch_commit_patch(owner, repo, sha)
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 404, 409, 422):
+                continue
+    raise
         for pattern_name, snippet in scan_text(patch_text):
             findings.append({
                 "commit": sha,
