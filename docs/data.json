@@ -593,12 +593,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T22:19:04.915765+00:00",
+      "event_id": "21435700747",
+      "repo": "Darjid314/tendres",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T22:19:05.231685+00:00",
+      "event_id": "21435700737",
+      "repo": "jayfrid-bot/bocabeach",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T22:19:05.562712+00:00",
+      "event_id": "21435700674",
+      "repo": "ayotxon/brvminvest",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T22:19:05.890865+00:00",
+      "event_id": "21435700611",
+      "repo": "jack-wise/AI-Newsletter",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 4875,
-    "total_alerts": 54,
-    "cycles_run": 53,
-    "last_updated": "2026-09-17T19:08:29.344430+00:00"
+    "total_events_seen": 4967,
+    "total_alerts": 58,
+    "cycles_run": 54,
+    "last_updated": "2026-09-17T22:19:06.236277+00:00"
   }
 }
