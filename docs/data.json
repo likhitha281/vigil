@@ -538,12 +538,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T19:08:27.764397+00:00",
+      "event_id": "21420825012",
+      "repo": "KawakatsuShumeiTerajima/AutoGreen",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T19:08:28.104122+00:00",
+      "event_id": "21420825009",
+      "repo": "Yoann-Michon/Yoann-Michon",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T19:08:28.399805+00:00",
+      "event_id": "21420824978",
+      "repo": "rodrignucleo/rodrignucleo",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T19:08:28.683585+00:00",
+      "event_id": "21420824895",
+      "repo": "NamanVinayak/claude-code-swing-scanner",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-17T19:08:29.023696+00:00",
+      "event_id": "21420824869",
+      "repo": "zpwhryv5gt-create/Momentum-trader",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 4789,
-    "total_alerts": 49,
-    "cycles_run": 52,
-    "last_updated": "2026-09-17T15:07:54.297982+00:00"
+    "total_events_seen": 4875,
+    "total_alerts": 54,
+    "cycles_run": 53,
+    "last_updated": "2026-09-17T19:08:29.344430+00:00"
   }
 }
