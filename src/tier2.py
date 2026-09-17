@@ -15,8 +15,11 @@ Both fetchers are passed in as arguments (dependency injection) so this
 module can be tested deterministically against fixtures without hitting the
 real network -- see fixtures/generate_fixtures.py and src/run_fixtures.py.
 """
-from secret_patterns import scan_text
+
 import urllib.error
+
+from secret_patterns import scan_text
+
 
 class Budget:
     """Tracks how many Tier 2 API calls remain in the current polling cycle."""
@@ -48,21 +51,24 @@ def check_diverged(event, budget, fetch_compare):
     repo_name = event.get("repo", {}).get("name", "")
     if "/" not in repo_name:
         return True, False
+
     owner, repo = repo_name.split("/", 1)
     payload = event.get("payload", {})
     before, head = payload.get("before"), payload.get("head")
+
     if not before or not head:
         return True, False
 
     try:
-      result = fetch_compare(owner, repo, before, head)
+        result = fetch_compare(owner, repo, before, head)
     except urllib.error.HTTPError as e:
-      if e.code in (403, 404, 409, 422):
-        # The repository/commit may have disappeared, become inaccessible,
-        # or GitHub may not be able to perform this comparison.
-        # Skip Tier 2 for this event instead of killing the whole poll.
-        return 0, False
-      raise
+        if e.code in (403, 404, 409, 422):
+            # The repository/commit may have disappeared, become inaccessible,
+            # or GitHub may not be able to perform this comparison.
+            # Skip this comparison instead of killing the whole poll.
+            return True, False
+        raise
+
     return True, (result.get("status") == "diverged")
 
 
@@ -74,25 +80,30 @@ def scan_commits_for_secrets(event, commit_shas, budget, fetch_commit_patch):
     """
     findings = []
     repo_name = event.get("repo", {}).get("name", "")
+
     if "/" not in repo_name:
         return findings
+
     owner, repo = repo_name.split("/", 1)
 
     for sha in commit_shas:
         if not budget.spend(1):
             break
+
         try:
             patch_text = fetch_commit_patch(owner, repo, sha)
         except urllib.error.HTTPError as e:
             if e.code in (403, 404, 409, 422):
                 continue
-    raise
+            raise
+
         for pattern_name, snippet in scan_text(patch_text):
             findings.append({
                 "commit": sha,
                 "pattern": pattern_name,
                 "snippet": snippet,
             })
+
     return findings
 
 
@@ -102,20 +113,33 @@ def run(event, tier1_result, budget, fetch_compare, fetch_commit_patch):
     additional findings; safe to call even if the budget is already
     exhausted (everything just no-ops and reports nothing spent).
     """
-    result = {"diverged": False, "secret_findings": [], "budget_exhausted": False}
+    result = {
+        "diverged": False,
+        "secret_findings": [],
+        "budget_exhausted": False,
+    }
 
     spent, diverged = check_diverged(event, budget, fetch_compare)
+
     if not spent:
         result["budget_exhausted"] = True
         return result
+
     result["diverged"] = diverged
 
     commits_to_scan = tier1_result.get("commits_of_interest") or [
-        c.get("sha") for c in event.get("payload", {}).get("commits", [])
+        c.get("sha")
+        for c in event.get("payload", {}).get("commits", [])
     ]
+
     result["secret_findings"] = scan_commits_for_secrets(
-        event, commits_to_scan, budget, fetch_commit_patch
+        event,
+        commits_to_scan,
+        budget,
+        fetch_commit_patch,
     )
+
     if budget.remaining() == 0:
         result["budget_exhausted"] = True
+
     return result
