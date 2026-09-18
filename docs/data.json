@@ -725,12 +725,89 @@
       ],
       "tier2_diverged": true,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:55.093612+00:00",
+      "event_id": "21486175661",
+      "repo": "ZMonfared/DSAIlab",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:55.477872+00:00",
+      "event_id": "21486175636",
+      "repo": "taokun5881/tvbox1",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:55.731569+00:00",
+      "event_id": "21486175626",
+      "repo": "ryankim5426/life3_intelligence_bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:56.000072+00:00",
+      "event_id": "21486175623",
+      "repo": "asutekku/mm-veikkaus-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:56.289161+00:00",
+      "event_id": "21486175621",
+      "repo": "Mark-MTR/weather-warnings-archive",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:56.550346+00:00",
+      "event_id": "21486175443",
+      "repo": "ElissaAlHabari/COSC482",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T09:57:56.807525+00:00",
+      "event_id": "21486175549",
+      "repo": "easimon/azure-builtin-roles",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 5148,
-    "total_alerts": 66,
-    "cycles_run": 56,
-    "last_updated": "2026-09-18T05:27:00.120103+00:00"
+    "total_events_seen": 5237,
+    "total_alerts": 73,
+    "cycles_run": 57,
+    "last_updated": "2026-09-18T09:57:57.083393+00:00"
   }
 }
