@@ -879,12 +879,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:09.240055+00:00",
+      "event_id": "21532918343",
+      "repo": "coldbox-modules/quick",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:09.584249+00:00",
+      "event_id": "21532918365",
+      "repo": "shota2865-png/sedori-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:09.932725+00:00",
+      "event_id": "21532918392",
+      "repo": "Fishwaldo/Fishwaldo",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:10.296651+00:00",
+      "event_id": "21532918397",
+      "repo": "umarmuhdhor/umarmuhdhor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:10.636415+00:00",
+      "event_id": "21532918409",
+      "repo": "torodean/MIA",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:10.979998+00:00",
+      "event_id": "21532918421",
+      "repo": "IcyGambino/trend-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:11.305960+00:00",
+      "event_id": "21532918451",
+      "repo": "ziom124/cmv4",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:11.660245+00:00",
+      "event_id": "21532918571",
+      "repo": "Lideeyah/gapless",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T20:14:11.997206+00:00",
+      "event_id": "21532918569",
+      "repo": "RVignesh5/RVignesh5",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 5406,
-    "total_alerts": 80,
-    "cycles_run": 59,
-    "last_updated": "2026-09-18T17:45:06.503631+00:00"
+    "total_events_seen": 5489,
+    "total_alerts": 89,
+    "cycles_run": 60,
+    "last_updated": "2026-09-18T20:14:12.354232+00:00"
   }
 }
