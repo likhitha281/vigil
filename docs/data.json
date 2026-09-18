@@ -978,12 +978,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:39.305883+00:00",
+      "event_id": "21542069981",
+      "repo": "ismaelmorenomartinez/wedding-slot-watcher",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:39.721762+00:00",
+      "event_id": "21542069991",
+      "repo": "DerWashbr/Pluto-TV-Playlists",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:40.626245+00:00",
+      "event_id": "21542070012",
+      "repo": "gabbling57404divisor/Expedition-Into-Darkness-Beta-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:40.966542+00:00",
+      "event_id": "21542070070",
+      "repo": "rebienalddev/NasIoPing",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:41.312511+00:00",
+      "event_id": "21542070149",
+      "repo": "VecorDEV/dati-finanziari",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:41.637167+00:00",
+      "event_id": "21542070238",
+      "repo": "lluiseriksson/lean-transfer-matrix",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:41.920028+00:00",
+      "event_id": "21542070253",
+      "repo": "wootsat/ball-town",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-18T22:42:42.207968+00:00",
+      "event_id": "21542070377",
+      "repo": "nicolesel/positano-sync-v2",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 5489,
-    "total_alerts": 89,
-    "cycles_run": 60,
-    "last_updated": "2026-09-18T20:14:12.354232+00:00"
+    "total_events_seen": 5579,
+    "total_alerts": 97,
+    "cycles_run": 61,
+    "last_updated": "2026-09-18T22:42:42.485381+00:00"
   }
 }
