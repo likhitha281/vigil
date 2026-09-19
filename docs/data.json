@@ -1374,12 +1374,122 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:37.498656+00:00",
+      "event_id": "21596119766",
+      "repo": "zhudao/FFmpeg",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:37.985347+00:00",
+      "event_id": "21596119757",
+      "repo": "longjin0593/MyG",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:38.320897+00:00",
+      "event_id": "21596119750",
+      "repo": "muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:38.800626+00:00",
+      "event_id": "21596119746",
+      "repo": "noaether/noaether",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:39.181213+00:00",
+      "event_id": "21596119734",
+      "repo": "mariusbudileanu/nivel-dunare",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:41.186155+00:00",
+      "event_id": "21596119727",
+      "repo": "KirtKurt/parlay-platform",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:41.450794+00:00",
+      "event_id": "21596119903",
+      "repo": "50gramx/eapp-releases",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:41.747709+00:00",
+      "event_id": "21596119951",
+      "repo": "headlessdezlife866/Pomotime-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:42.000561+00:00",
+      "event_id": "21596119980",
+      "repo": "HOTHEAD01TH/HOTHEAD01TH",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T16:57:42.239029+00:00",
+      "event_id": "21596119983",
+      "repo": "yz9999/Trackers",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 5940,
-    "total_alerts": 125,
-    "cycles_run": 65,
-    "last_updated": "2026-09-19T13:37:02.248090+00:00"
+    "total_events_seen": 6023,
+    "total_alerts": 135,
+    "cycles_run": 66,
+    "last_updated": "2026-09-19T16:57:42.486004+00:00"
   }
 }
