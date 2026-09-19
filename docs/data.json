@@ -1066,12 +1066,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:30.982035+00:00",
+      "event_id": "21548550090",
+      "repo": "vangiemp04/alerta-apagones",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:31.284479+00:00",
+      "event_id": "21548550179",
+      "repo": "BaXMultigaming/Przepisy",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:31.616867+00:00",
+      "event_id": "21548550254",
+      "repo": "ethancha0/ats-scraper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:31.870394+00:00",
+      "event_id": "21548550256",
+      "repo": "austinyachtclub/austinyachtclub.github.io",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:32.293957+00:00",
+      "event_id": "21548550316",
+      "repo": "collectroom11-creator/Mercari",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-19T00:51:32.599518+00:00",
+      "event_id": "21548550363",
+      "repo": "alikayadeu-commits/paribu-market-gateway",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 5579,
-    "total_alerts": 97,
-    "cycles_run": 61,
-    "last_updated": "2026-09-18T22:42:42.485381+00:00"
+    "total_events_seen": 5668,
+    "total_alerts": 103,
+    "cycles_run": 62,
+    "last_updated": "2026-09-19T00:51:32.922261+00:00"
   }
 }
