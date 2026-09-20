@@ -1924,12 +1924,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T21:43:05.498291+00:00",
+      "event_id": "21685622975",
+      "repo": "knights-627delimits/Item-Compare",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6743,
-    "total_alerts": 175,
-    "cycles_run": 74,
-    "last_updated": "2026-09-20T19:12:38.589989+00:00"
+    "total_events_seen": 6836,
+    "total_alerts": 176,
+    "cycles_run": 75,
+    "last_updated": "2026-09-20T21:43:05.700931+00:00"
   }
 }
