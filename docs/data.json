@@ -1935,12 +1935,89 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:38.322670+00:00",
+      "event_id": "21691772903",
+      "repo": "RoyalBot-BETA/discord-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:38.710070+00:00",
+      "event_id": "21691772919",
+      "repo": "travismorton1995/kindle-dash",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:39.001320+00:00",
+      "event_id": "21691772972",
+      "repo": "bitcoinforu2-ui/Wallet500",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:39.338217+00:00",
+      "event_id": "21691772997",
+      "repo": "AlazMaster/Yayincilar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:39.697421+00:00",
+      "event_id": "21691773021",
+      "repo": "Tanjam73/Scraper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:39.978242+00:00",
+      "event_id": "21691773082",
+      "repo": "pablo828699-lab/splitcharts-alerts",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T23:45:40.287967+00:00",
+      "event_id": "21691773121",
+      "repo": "thedoggybrad/easylist-mirror",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6836,
-    "total_alerts": 176,
-    "cycles_run": 75,
-    "last_updated": "2026-09-20T21:43:05.700931+00:00"
+    "total_events_seen": 6929,
+    "total_alerts": 183,
+    "cycles_run": 76,
+    "last_updated": "2026-09-20T23:45:40.592201+00:00"
   }
 }
