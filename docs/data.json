@@ -1704,12 +1704,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:34.800459+00:00",
+      "event_id": "21625754849",
+      "repo": "SakshamTapadia/SakshamTapadia",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:35.051456+00:00",
+      "event_id": "21625754701",
+      "repo": "MiguelGranado/MiguelGranado",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:35.353813+00:00",
+      "event_id": "21625754716",
+      "repo": "eviler-missed0/Path-of-Idle-Old-Gods-Rising-Community-Edition",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:35.687955+00:00",
+      "event_id": "21625754750",
+      "repo": "Olbrasoft/sdilej-to-prehrajto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:35.968091+00:00",
+      "event_id": "21625754762",
+      "repo": "eirikur-ari/eirikur-ari",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:36.214691+00:00",
+      "event_id": "21625754773",
+      "repo": "Hellijam9/nem-intelligence",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:36.486911+00:00",
+      "event_id": "21625754802",
+      "repo": "RAMM143/numpy-ninja-flow-chart",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T02:44:36.763022+00:00",
+      "event_id": "21625754820",
+      "repo": "uso061777-ctrl/futbol-blog",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6284,
-    "total_alerts": 155,
-    "cycles_run": 69,
-    "last_updated": "2026-09-19T23:49:16.212330+00:00"
+    "total_events_seen": 6375,
+    "total_alerts": 163,
+    "cycles_run": 70,
+    "last_updated": "2026-09-20T02:44:37.038381+00:00"
   }
 }
