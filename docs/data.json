@@ -1792,12 +1792,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T08:09:54.012463+00:00",
+      "event_id": "21641121928",
+      "repo": "cocso/cocso-ui",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T08:09:54.371187+00:00",
+      "event_id": "21641121984",
+      "repo": "y-ykym/tennis-court-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6375,
-    "total_alerts": 163,
-    "cycles_run": 70,
-    "last_updated": "2026-09-20T02:44:37.038381+00:00"
+    "total_events_seen": 6468,
+    "total_alerts": 165,
+    "cycles_run": 71,
+    "last_updated": "2026-09-20T08:09:54.739687+00:00"
   }
 }
