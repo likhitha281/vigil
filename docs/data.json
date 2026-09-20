@@ -1814,12 +1814,122 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:35.905476+00:00",
+      "event_id": "21677340692",
+      "repo": "bibicadotnet/edge_installer",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:36.185989+00:00",
+      "event_id": "21677340700",
+      "repo": "barxas-73/Office-Material-Management-System-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:36.457287+00:00",
+      "event_id": "21677340742",
+      "repo": "alejofilartiga/alejofilartiga",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:36.717719+00:00",
+      "event_id": "21677340744",
+      "repo": "elfskuzoppo75/Awstats",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:37.046858+00:00",
+      "event_id": "21677340781",
+      "repo": "bitcoinforu2-ui/Wallet500",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:37.332710+00:00",
+      "event_id": "21677340837",
+      "repo": "happyboytvoridobro/Metastripper-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:37.609795+00:00",
+      "event_id": "21677340845",
+      "repo": "Fusirod/Newspaper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:37.864022+00:00",
+      "event_id": "21677340857",
+      "repo": "emmaudeh038-design/edd-license-orchestrator",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:38.093240+00:00",
+      "event_id": "21677340877",
+      "repo": "claybeeoutfit/grouppolicy-editor-portable",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-20T19:12:38.340868+00:00",
+      "event_id": "21677340882",
+      "repo": "kirka-joker/Cdburnerxp",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6651,
-    "total_alerts": 165,
-    "cycles_run": 73,
-    "last_updated": "2026-09-20T16:54:38.349674+00:00"
+    "total_events_seen": 6743,
+    "total_alerts": 175,
+    "cycles_run": 74,
+    "last_updated": "2026-09-20T19:12:38.589989+00:00"
   }
 }
