@@ -2012,12 +2012,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T02:41:46.024790+00:00",
+      "event_id": "21700906744",
+      "repo": "Kxrxn-95/jellycat-watch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T02:41:46.436447+00:00",
+      "event_id": "21700906783",
+      "repo": "nitish-niraj/nitish-niraj",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T02:41:46.761455+00:00",
+      "event_id": "21700906804",
+      "repo": "Rishabh050803/Rishabh050803",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 6929,
-    "total_alerts": 183,
-    "cycles_run": 76,
-    "last_updated": "2026-09-20T23:45:40.592201+00:00"
+    "total_events_seen": 7017,
+    "total_alerts": 186,
+    "cycles_run": 77,
+    "last_updated": "2026-09-21T02:41:47.085130+00:00"
   }
 }
