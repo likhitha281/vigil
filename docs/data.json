@@ -2045,12 +2045,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T20:04:26.137900+00:00",
+      "event_id": "21767963172",
+      "repo": "R1an27/R1an27",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T20:04:26.500619+00:00",
+      "event_id": "21767963189",
+      "repo": "Scaplen/MyUSA",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T20:04:26.849943+00:00",
+      "event_id": "21767963227",
+      "repo": "estevaofuzaro98/estevaofuzaro98",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-21T20:04:27.143940+00:00",
+      "event_id": "21767963223",
+      "repo": "LrdxL/LrdxL",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 7197,
-    "total_alerts": 186,
-    "cycles_run": 79,
-    "last_updated": "2026-09-21T15:14:58.967280+00:00"
+    "total_events_seen": 7291,
+    "total_alerts": 190,
+    "cycles_run": 80,
+    "last_updated": "2026-09-21T20:04:27.448841+00:00"
   }
 }
