@@ -2100,12 +2100,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:17.607904+00:00",
+      "event_id": "21857832211",
+      "repo": "liao52167/singapore-gp-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:17.989558+00:00",
+      "event_id": "21857832161",
+      "repo": "gaidehaha/github-trending-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:18.277296+00:00",
+      "event_id": "21857832132",
+      "repo": "ban60chester/Openra",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:18.615608+00:00",
+      "event_id": "21857832113",
+      "repo": "NotTHDAnh/NotTHDAnh",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:18.892548+00:00",
+      "event_id": "21857832105",
+      "repo": "Kondareddy1209/Kondareddy1209",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T17:28:19.201028+00:00",
+      "event_id": "21857832036",
+      "repo": "ShIsKeK/botkufar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 7647,
-    "total_alerts": 191,
-    "cycles_run": 84,
-    "last_updated": "2026-09-22T12:44:04.338315+00:00"
+    "total_events_seen": 7729,
+    "total_alerts": 197,
+    "cycles_run": 85,
+    "last_updated": "2026-09-22T17:28:19.499313+00:00"
   }
 }
