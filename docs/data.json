@@ -2166,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T20:23:46.498415+00:00",
+      "event_id": "21870469065",
+      "repo": "therealdavidbour/smf-parking",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T20:23:46.952233+00:00",
+      "event_id": "21870469086",
+      "repo": "diarist-17prowled/Wandering-Wolf-Devlog-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-22T20:23:47.302903+00:00",
+      "event_id": "21870469138",
+      "repo": "cyberdreyy/BT6",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 7729,
-    "total_alerts": 197,
-    "cycles_run": 85,
-    "last_updated": "2026-09-22T17:28:19.499313+00:00"
+    "total_events_seen": 7809,
+    "total_alerts": 200,
+    "cycles_run": 86,
+    "last_updated": "2026-09-22T20:23:47.724601+00:00"
   }
 }
