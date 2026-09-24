@@ -1,72 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-18T22:42:40.626245+00:00",
-      "event_id": "21542070012",
-      "repo": "gabbling57404divisor/Expedition-Into-Darkness-Beta-2026",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-18T22:42:40.966542+00:00",
-      "event_id": "21542070070",
-      "repo": "rebienalddev/NasIoPing",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-18T22:42:41.312511+00:00",
-      "event_id": "21542070149",
-      "repo": "VecorDEV/dati-finanziari",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-18T22:42:41.637167+00:00",
-      "event_id": "21542070238",
-      "repo": "lluiseriksson/lean-transfer-matrix",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-18T22:42:41.920028+00:00",
-      "event_id": "21542070253",
-      "repo": "wootsat/ball-town",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-18T22:42:42.207968+00:00",
-      "event_id": "21542070377",
-      "repo": "nicolesel/positano-sync-v2",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-19T00:51:30.982035+00:00",
       "event_id": "21548550090",
       "repo": "vangiemp04/alerta-apagones",
@@ -2199,12 +2133,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:57.902632+00:00",
+      "event_id": "22040563448",
+      "repo": "saksham-personal/mumbai-rain-se-bacho-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:58.256159+00:00",
+      "event_id": "22040563446",
+      "repo": "sovereign-codex/Codex-net-index",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:58.675923+00:00",
+      "event_id": "22040563444",
+      "repo": "hukugyoprogram/katamichi_bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:59.043769+00:00",
+      "event_id": "22040563398",
+      "repo": "zhagqiu521-sudo/tk-topic-trends",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:59.392084+00:00",
+      "event_id": "22040563328",
+      "repo": "cussingthrive-885/Pony-Island-2-Devlog-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T12:47:59.812156+00:00",
+      "event_id": "22040563673",
+      "repo": "maestroi/PokePilot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 8581,
-    "total_alerts": 291,
-    "cycles_run": 95,
-    "last_updated": "2026-09-24T07:01:30.992402+00:00"
+    "total_events_seen": 8666,
+    "total_alerts": 297,
+    "cycles_run": 96,
+    "last_updated": "2026-09-24T12:48:00.223507+00:00"
   }
 }
