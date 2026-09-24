@@ -1,105 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-19T00:51:30.982035+00:00",
-      "event_id": "21548550090",
-      "repo": "vangiemp04/alerta-apagones",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T00:51:31.284479+00:00",
-      "event_id": "21548550179",
-      "repo": "BaXMultigaming/Przepisy",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T00:51:31.616867+00:00",
-      "event_id": "21548550254",
-      "repo": "ethancha0/ats-scraper",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T00:51:31.870394+00:00",
-      "event_id": "21548550256",
-      "repo": "austinyachtclub/austinyachtclub.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T00:51:32.293957+00:00",
-      "event_id": "21548550316",
-      "repo": "collectroom11-creator/Mercari",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T00:51:32.599518+00:00",
-      "event_id": "21548550363",
-      "repo": "alikayadeu-commits/paribu-market-gateway",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T05:24:06.917490+00:00",
-      "event_id": "21561029414",
-      "repo": "stanleyxu1/RSF-Crowd-Data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T05:24:07.350859+00:00",
-      "event_id": "21561029411",
-      "repo": "crowfreshmeat/Machete-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T05:24:07.771649+00:00",
-      "event_id": "21561029398",
-      "repo": "antono4/EvoClaw",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-19T05:24:08.167267+00:00",
       "event_id": "21561029368",
       "repo": "Ze0ro99/SmartContracts",
@@ -2199,12 +2100,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:48.130706+00:00",
+      "event_id": "22061222253",
+      "repo": "culmdrdulitl432/Earmaster",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:48.610923+00:00",
+      "event_id": "22061222183",
+      "repo": "MFlab-inc/EA-Risk-Monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:49.198644+00:00",
+      "event_id": "22061222180",
+      "repo": "fatalikston/Privacy-Eraser",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:49.728741+00:00",
+      "event_id": "22061222121",
+      "repo": "lngadesupport/Asphalt-ReXtreme",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:50.239337+00:00",
+      "event_id": "22061222102",
+      "repo": "TrymeReal/-auto-screen",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:50.730123+00:00",
+      "event_id": "22061222095",
+      "repo": "lilaburlabur-ux/santro-ai",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:51.222952+00:00",
+      "event_id": "22061222071",
+      "repo": "kgt2874/btc-auto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:51.648233+00:00",
+      "event_id": "22061222069",
+      "repo": "diegolayt/diegola-promocoes-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-24T17:40:52.077891+00:00",
+      "event_id": "22061221946",
+      "repo": "kill3rghost6-byte/smc-paper-trader",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 8666,
-    "total_alerts": 297,
-    "cycles_run": 96,
-    "last_updated": "2026-09-24T12:48:00.223507+00:00"
+    "total_events_seen": 8745,
+    "total_alerts": 306,
+    "cycles_run": 97,
+    "last_updated": "2026-09-24T17:40:52.486716+00:00"
   }
 }
