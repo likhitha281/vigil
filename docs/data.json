@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-19T19:10:53.044774+00:00",
-      "event_id": "21603329164",
-      "repo": "HenryFordEscort/dealhawk",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T19:10:53.396841+00:00",
-      "event_id": "21603329168",
-      "repo": "huckjuhwang/Maple",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-19T19:10:53.771949+00:00",
-      "event_id": "21603329172",
-      "repo": "mrdokvegas290/Registry-Life-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-19T19:10:54.111524+00:00",
       "event_id": "21603329176",
       "repo": "turanbarabashka/Mono-Full-Version",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-25T08:25:14.403537+00:00",
+      "event_id": "22123827272",
+      "repo": "exo-clipper/tbhjustamcuserhunter",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-25T08:25:14.839244+00:00",
+      "event_id": "22123827351",
+      "repo": "kobuheikobuhei/amami-fune",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-25T08:25:15.275426+00:00",
+      "event_id": "22123827529",
+      "repo": "sirmotors4-questionarios/checklist",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 8999,
-    "total_alerts": 335,
-    "cycles_run": 100,
-    "last_updated": "2026-09-25T02:50:22.115984+00:00"
+    "total_events_seen": 9080,
+    "total_alerts": 338,
+    "cycles_run": 101,
+    "last_updated": "2026-09-25T08:25:15.600055+00:00"
   }
 }
