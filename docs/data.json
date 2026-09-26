@@ -1,17 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-20T19:12:37.864022+00:00",
-      "event_id": "21677340857",
-      "repo": "emmaudeh038-design/edd-license-orchestrator",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-20T19:12:38.093240+00:00",
       "event_id": "21677340877",
       "repo": "claybeeoutfit/grouppolicy-editor-portable",
@@ -2199,12 +2188,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-26T05:14:45.122323+00:00",
+      "event_id": "22203582315",
+      "repo": "001vps/iptv-api",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 9420,
-    "total_alerts": 372,
-    "cycles_run": 105,
-    "last_updated": "2026-09-26T00:18:03.958046+00:00"
+    "total_events_seen": 9503,
+    "total_alerts": 373,
+    "cycles_run": 106,
+    "last_updated": "2026-09-26T05:14:45.592804+00:00"
   }
 }
