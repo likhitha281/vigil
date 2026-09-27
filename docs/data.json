@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-23T07:06:04.293647+00:00",
-      "event_id": "21916844604",
-      "repo": "smf-pro/TerminalTrader",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T07:06:04.684134+00:00",
-      "event_id": "21916844615",
-      "repo": "XDsweather/XDsweather",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-23T07:06:05.094055+00:00",
       "event_id": "21916844625",
       "repo": "brodyaga-mexank/Logyx-Pack-Full-Version",
@@ -2199,12 +2177,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-27T14:29:16.089664+00:00",
+      "event_id": "22306044775",
+      "repo": "LuizRaff/nois-website",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-27T14:29:16.463790+00:00",
+      "event_id": "22306044467",
+      "repo": "auroruse/the-talopedia",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10095,
-    "total_alerts": 420,
-    "cycles_run": 113,
-    "last_updated": "2026-09-27T08:50:49.653610+00:00"
+    "total_events_seen": 10176,
+    "total_alerts": 422,
+    "cycles_run": 114,
+    "last_updated": "2026-09-27T14:29:16.825407+00:00"
   }
 }
