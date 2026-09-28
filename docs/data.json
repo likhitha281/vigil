@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-23T20:55:43.948027+00:00",
-      "event_id": "21978567380",
-      "repo": "erscop/arb-scanner-v2",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T20:55:44.276374+00:00",
-      "event_id": "21978567410",
-      "repo": "YatinSharma1303/YatinSharma1303",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T20:55:44.603598+00:00",
-      "event_id": "21978567415",
-      "repo": "glassexypanda29/Unlocker-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T20:55:45.007853+00:00",
-      "event_id": "21978567473",
-      "repo": "miya9209-prog/cs-alarm-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T23:23:54.220150+00:00",
-      "event_id": "21988519983",
-      "repo": "TrisHandel/Brommobiel_Bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-23T23:23:54.601375+00:00",
       "event_id": "21988520055",
       "repo": "forgetful-1961/Universe-Sandbox-2",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T05:39:43.458257+00:00",
+      "event_id": "22355615566",
+      "repo": "ryryoooo/meme-signal-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T05:39:44.207829+00:00",
+      "event_id": "22355615202",
+      "repo": "Mhhickma/Dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T05:39:44.541265+00:00",
+      "event_id": "22355615255",
+      "repo": "firdavsyangiev/firdavsyangiev",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T05:39:45.098206+00:00",
+      "event_id": "22355615266",
+      "repo": "x-cmd-install/cloudflare-go",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T05:39:45.401436+00:00",
+      "event_id": "22355615296",
+      "repo": "Olbrasoft/sdilej-to-prehrajto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10441,
-    "total_alerts": 455,
-    "cycles_run": 117,
-    "last_updated": "2026-09-28T00:11:55.989123+00:00"
+    "total_events_seen": 10525,
+    "total_alerts": 460,
+    "cycles_run": 118,
+    "last_updated": "2026-09-28T05:39:46.064540+00:00"
   }
 }
