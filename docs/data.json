@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-23T23:23:57.043650+00:00",
-      "event_id": "21988520241",
-      "repo": "Mihajarak/signal-job-tracker-ok",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-23T23:23:57.366044+00:00",
-      "event_id": "21988520253",
-      "repo": "shivampatel88/shivampatel88",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:39.426490+00:00",
-      "event_id": "21996875172",
-      "repo": "masuodmehdi/Apk-download",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T01:33:39.991711+00:00",
       "event_id": "21996875605",
       "repo": "snow-gladys/snow-gladys.github.io",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T19:56:00.369569+00:00",
+      "event_id": "22415236636",
+      "repo": "misterplusev/nfl-monitors",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T19:56:00.968822+00:00",
+      "event_id": "22415236722",
+      "repo": "aparecidomikael97-ship-it/usd-macro-pro-v4",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-28T19:56:01.300442+00:00",
+      "event_id": "22415236729",
+      "repo": "palemoon-notes8/notes",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10604,
-    "total_alerts": 467,
-    "cycles_run": 119,
-    "last_updated": "2026-09-28T12:33:12.303843+00:00"
+    "total_events_seen": 10683,
+    "total_alerts": 470,
+    "cycles_run": 120,
+    "last_updated": "2026-09-28T19:56:01.647082+00:00"
   }
 }
