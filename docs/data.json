@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T07:01:24.635369+00:00",
-      "event_id": "22017189792",
-      "repo": "legrooms-had-6158/Bloodstained-Scarlet-Engagement-2026",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T07:01:25.048071+00:00",
-      "event_id": "22017189787",
-      "repo": "oribarlevco-cell/kalshi-btc-15m-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T07:01:25.444863+00:00",
-      "event_id": "22017189731",
-      "repo": "sudonatalie/shaderc",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T07:01:25.927606+00:00",
       "event_id": "22017189725",
       "repo": "giuseppemineo685-beep/atlantis-polymarket-screening",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T05:57:08.146384+00:00",
+      "event_id": "22451823182",
+      "repo": "polarsource/polar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T05:57:08.449388+00:00",
+      "event_id": "22451823194",
+      "repo": "umut2000kibritci-alt/antrenorluk-pusu",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T05:57:08.701060+00:00",
+      "event_id": "22451823204",
+      "repo": "ozzy282576/monalisa-film",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10767,
-    "total_alerts": 478,
-    "cycles_run": 121,
-    "last_updated": "2026-09-29T00:08:20.408494+00:00"
+    "total_events_seen": 10842,
+    "total_alerts": 481,
+    "cycles_run": 122,
+    "last_updated": "2026-09-29T05:57:08.989298+00:00"
   }
 }
