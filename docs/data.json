@@ -1,17 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T07:01:25.927606+00:00",
-      "event_id": "22017189725",
-      "repo": "giuseppemineo685-beep/atlantis-polymarket-screening",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T07:01:26.456836+00:00",
       "event_id": "22017189718",
       "repo": "sarsx3/aladin420",
@@ -2199,12 +2188,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T12:09:21.619841+00:00",
+      "event_id": "22477606743",
+      "repo": "wtv1gnf3hbk/gulf-briefing",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10842,
-    "total_alerts": 481,
-    "cycles_run": 122,
-    "last_updated": "2026-09-29T05:57:08.989298+00:00"
+    "total_events_seen": 10923,
+    "total_alerts": 482,
+    "cycles_run": 123,
+    "last_updated": "2026-09-29T12:09:22.129607+00:00"
   }
 }
