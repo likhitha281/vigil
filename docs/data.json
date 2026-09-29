@@ -1,94 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T01:33:39.991711+00:00",
-      "event_id": "21996875605",
-      "repo": "snow-gladys/snow-gladys.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:40.350553+00:00",
-      "event_id": "21996875613",
-      "repo": "skechsuperdraigon/Fandraft-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:40.733953+00:00",
-      "event_id": "21996875628",
-      "repo": "soonryu74/soonryu74.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:41.079459+00:00",
-      "event_id": "21996875659",
-      "repo": "taperedovertime0/Neverseas-Devlog-2026",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:41.435656+00:00",
-      "event_id": "21996875670",
-      "repo": "hhxk233/hhxk233.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:41.760258+00:00",
-      "event_id": "21996875592",
-      "repo": "KayllonRogger/KayllonRogger",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T01:33:42.063672+00:00",
-      "event_id": "21996875714",
-      "repo": "eddy-ebyrator/Tycoon-City-New-York",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T07:01:24.213323+00:00",
-      "event_id": "22017189795",
-      "repo": "Muhammad-Awais-Awan/Muhammad-Awais-Awan",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T07:01:24.635369+00:00",
       "event_id": "22017189792",
       "repo": "legrooms-had-6158/Bloodstained-Scarlet-Engagement-2026",
@@ -2199,12 +2111,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:18.115414+00:00",
+      "event_id": "22431361970",
+      "repo": "ethancha0/ats-scraper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:18.349473+00:00",
+      "event_id": "22431361956",
+      "repo": "chepin-ai/vci-lgt",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:18.607152+00:00",
+      "event_id": "22431361920",
+      "repo": "hj01857655/hj01857655",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:18.898398+00:00",
+      "event_id": "22431361884",
+      "repo": "Xavieryber/kongmuli",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:19.190091+00:00",
+      "event_id": "22431362079",
+      "repo": "NachtgeistW/NachtgeistW",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:19.498949+00:00",
+      "event_id": "22431362096",
+      "repo": "Fletcher15478/nba-game-predictor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:19.761604+00:00",
+      "event_id": "22431362146",
+      "repo": "skandla2002ai-andy/korean-history",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T00:08:20.029653+00:00",
+      "event_id": "22431362147",
+      "repo": "Tiag0ss/Tiag0ss",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 10683,
-    "total_alerts": 470,
-    "cycles_run": 120,
-    "last_updated": "2026-09-28T19:56:01.647082+00:00"
+    "total_events_seen": 10767,
+    "total_alerts": 478,
+    "cycles_run": 121,
+    "last_updated": "2026-09-29T00:08:20.408494+00:00"
   }
 }
