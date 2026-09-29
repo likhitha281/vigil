@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T07:01:29.411507+00:00",
-      "event_id": "22017189340",
-      "repo": "Kotlas23412/proxy-checker",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T07:01:29.818548+00:00",
-      "event_id": "22017189431",
-      "repo": "zoyuka/oi-walls",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T07:01:30.162435+00:00",
       "event_id": "22017189474",
       "repo": "srudqvist/srudqvist",
@@ -2199,12 +2177,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T22:28:14.329066+00:00",
+      "event_id": "22524509730",
+      "repo": "NotYourAverageGamer/NotYourAverageGamer",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-29T22:28:14.807878+00:00",
+      "event_id": "22524510148",
+      "repo": "akku1139/RSS2Discord",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 11007,
-    "total_alerts": 487,
-    "cycles_run": 124,
-    "last_updated": "2026-09-29T18:10:37.810146+00:00"
+    "total_events_seen": 11092,
+    "total_alerts": 489,
+    "cycles_run": 125,
+    "last_updated": "2026-09-29T22:28:15.424485+00:00"
   }
 }
