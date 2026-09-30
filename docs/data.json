@@ -1,105 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T12:47:59.812156+00:00",
-      "event_id": "22040563673",
-      "repo": "maestroi/PokePilot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:48.130706+00:00",
-      "event_id": "22061222253",
-      "repo": "culmdrdulitl432/Earmaster",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:48.610923+00:00",
-      "event_id": "22061222183",
-      "repo": "MFlab-inc/EA-Risk-Monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:49.198644+00:00",
-      "event_id": "22061222180",
-      "repo": "fatalikston/Privacy-Eraser",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:49.728741+00:00",
-      "event_id": "22061222121",
-      "repo": "lngadesupport/Asphalt-ReXtreme",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:50.239337+00:00",
-      "event_id": "22061222102",
-      "repo": "TrymeReal/-auto-screen",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:50.730123+00:00",
-      "event_id": "22061222095",
-      "repo": "lilaburlabur-ux/santro-ai",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:51.222952+00:00",
-      "event_id": "22061222071",
-      "repo": "kgt2874/btc-auto",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T17:40:51.648233+00:00",
-      "event_id": "22061222069",
-      "repo": "diegolayt/diegola-promocoes-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T17:40:52.077891+00:00",
       "event_id": "22061221946",
       "repo": "kill3rghost6-byte/smc-paper-trader",
@@ -2199,12 +2100,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:41.937250+00:00",
+      "event_id": "22561794744",
+      "repo": "jakubfarkas-gwtweblease/005643178",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:42.398713+00:00",
+      "event_id": "22561794773",
+      "repo": "Olbrasoft/sdilej-serialy",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:42.760025+00:00",
+      "event_id": "22561794882",
+      "repo": "Crystaluia/liwuwen",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:43.279289+00:00",
+      "event_id": "22561794906",
+      "repo": "Sheesh0327/PisoPhone-Kiosk-Launcher-V1",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:43.772285+00:00",
+      "event_id": "22561794927",
+      "repo": "mo-ri-ch/reel-agent",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:44.047333+00:00",
+      "event_id": "22561794945",
+      "repo": "50gramx/eapp-releases",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:44.381181+00:00",
+      "event_id": "22561794876",
+      "repo": "sasasotaro1202-star/BTC-Prediction-Research",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:44.738338+00:00",
+      "event_id": "22561794999",
+      "repo": "fashjameswoodson53/Amv-Convert-Tool-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T07:00:45.067284+00:00",
+      "event_id": "22561795030",
+      "repo": "maaronfanberg-lab/me-",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 11174,
-    "total_alerts": 496,
-    "cycles_run": 126,
-    "last_updated": "2026-09-30T01:25:30.014049+00:00"
+    "total_events_seen": 11256,
+    "total_alerts": 505,
+    "cycles_run": 127,
+    "last_updated": "2026-09-30T07:00:45.415518+00:00"
   }
 }
