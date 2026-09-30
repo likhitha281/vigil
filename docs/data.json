@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T17:40:52.077891+00:00",
-      "event_id": "22061221946",
-      "repo": "kill3rghost6-byte/smc-paper-trader",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T20:59:44.495368+00:00",
-      "event_id": "22076638878",
-      "repo": "s0fractal/g1f9e0-life",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T20:59:44.990927+00:00",
-      "event_id": "22076638872",
-      "repo": "rumeysacelik/rumeysacelik",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T20:59:45.346165+00:00",
-      "event_id": "22076638865",
-      "repo": "WOOJEONGRYEOL/news-signal",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T20:59:45.767022+00:00",
-      "event_id": "22076639068",
-      "repo": "krisokellermanj/gunji-lo",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-24T20:59:46.145839+00:00",
       "event_id": "22076639104",
       "repo": "supergamer002/jksadbsa-shb-shdjh_shdah.hdsaudjhjd-73b.sh",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T19:32:00.159556+00:00",
+      "event_id": "22619021722",
+      "repo": "lordon1a/Anadolu-Etkinlik",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T19:32:00.609848+00:00",
+      "event_id": "22619021815",
+      "repo": "painelhidrologico/site",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T19:32:01.070998+00:00",
+      "event_id": "22619021829",
+      "repo": "80947108/guovin",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T19:32:01.607783+00:00",
+      "event_id": "22619021891",
+      "repo": "yoanngrange/bst",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-09-30T19:32:02.074657+00:00",
+      "event_id": "22619021293",
+      "repo": "yao-care/AuTxGNN",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 11333,
-    "total_alerts": 505,
-    "cycles_run": 128,
-    "last_updated": "2026-09-30T14:00:23.318186+00:00"
+    "total_events_seen": 11414,
+    "total_alerts": 510,
+    "cycles_run": 129,
+    "last_updated": "2026-09-30T19:32:02.495876+00:00"
   }
 }
