@@ -1,17 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-25T02:50:17.175106+00:00",
-      "event_id": "22102566597",
-      "repo": "ideaplanet/trending",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-25T02:50:17.829162+00:00",
       "event_id": "22102566579",
       "repo": "Guibi1/homelab",
@@ -2199,12 +2188,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T09:12:05.746457+00:00",
+      "event_id": "22675511629",
+      "repo": "andremoschos/pao-x-alert",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 11585,
-    "total_alerts": 525,
-    "cycles_run": 131,
-    "last_updated": "2026-10-01T02:15:43.089921+00:00"
+    "total_events_seen": 11667,
+    "total_alerts": 526,
+    "cycles_run": 132,
+    "last_updated": "2026-10-01T09:12:06.186729+00:00"
   }
 }
