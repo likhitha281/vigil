@@ -1,94 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-24T23:48:33.870461+00:00",
-      "event_id": "22089627185",
-      "repo": "udipta-dev/rank-radar",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:34.186002+00:00",
-      "event_id": "22089627166",
-      "repo": "adeonwestwood5/Huplayer-Full-Version-Unlocked",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:34.594517+00:00",
-      "event_id": "22089627106",
-      "repo": "laurajoyhutchins/overcenter-research",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:34.901452+00:00",
-      "event_id": "22089626918",
-      "repo": "chibisov201079-oss/TheHarmonySystems",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:35.214682+00:00",
-      "event_id": "22089626928",
-      "repo": "fswshun/whale-kyle",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:35.550375+00:00",
-      "event_id": "22089626976",
-      "repo": "dekarita/supreme-lamp",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-24T23:48:35.864488+00:00",
-      "event_id": "22089627014",
-      "repo": "CleanroomMC/Conventions",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-25T02:50:16.693883+00:00",
-      "event_id": "22102566599",
-      "repo": "administrativo-ship-it/painel-organize-empresas",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-25T02:50:17.175106+00:00",
       "event_id": "22102566597",
       "repo": "ideaplanet/trending",
@@ -2199,12 +2111,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:40.281601+00:00",
+      "event_id": "22648293320",
+      "repo": "fioninquo1/MJ_hirugyelet",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:40.643127+00:00",
+      "event_id": "22648293328",
+      "repo": "aihddelyy/openwrt-package",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:41.164268+00:00",
+      "event_id": "22648293435",
+      "repo": "YahyaHasan/internship-alerts",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:41.463009+00:00",
+      "event_id": "22648293448",
+      "repo": "mappings-copings-1145/Dungeons-of-the-Amber-Griffin-Prototype",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:41.746153+00:00",
+      "event_id": "22648293573",
+      "repo": "sanjanagandhi-vgl/live-tv-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:42.010703+00:00",
+      "event_id": "22648293628",
+      "repo": "ChesleyLo/DownloadBankOfTaiwanExchangeRate",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:42.465537+00:00",
+      "event_id": "22648293656",
+      "repo": "mandialkin-lulu/Shadow-Of-The-Tomb-Raider",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-01T02:15:42.775335+00:00",
+      "event_id": "22648293672",
+      "repo": "aaranguha/fantasy-rooting-agent",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 11496,
-    "total_alerts": 517,
-    "cycles_run": 130,
-    "last_updated": "2026-09-30T23:21:50.654050+00:00"
+    "total_events_seen": 11585,
+    "total_alerts": 525,
+    "cycles_run": 131,
+    "last_updated": "2026-10-01T02:15:43.089921+00:00"
   }
 }
