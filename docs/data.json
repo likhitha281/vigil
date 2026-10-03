@@ -1,72 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-27T02:55:36.294991+00:00",
-      "event_id": "22272039828",
-      "repo": "rafa-vasconcelos/rafa-vasconcelos",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T02:55:36.667549+00:00",
-      "event_id": "22272039841",
-      "repo": "christergronvold-cmd/Sorlandet",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T02:55:37.068067+00:00",
-      "event_id": "22272039845",
-      "repo": "HugoTirion/scraper",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T02:55:37.470164+00:00",
-      "event_id": "22272039891",
-      "repo": "manya1604/manya1604",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T02:55:37.806351+00:00",
-      "event_id": "22272039899",
-      "repo": "ProkopU/climbing-watch-cvut",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T02:55:38.133048+00:00",
-      "event_id": "22272039903",
-      "repo": "r59538904-art/realtime-news-board",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-27T02:55:38.489797+00:00",
       "event_id": "22272039918",
       "repo": "lorisvollenweider-pixel/crypto-signal-bot",
@@ -2199,12 +2133,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:54.603965+00:00",
+      "event_id": "22910566518",
+      "repo": "RoyZhang7/RoyZhang7",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:55.010692+00:00",
+      "event_id": "22910566570",
+      "repo": "fakemonkeybear-dotcom/wallet-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:55.355119+00:00",
+      "event_id": "22910566572",
+      "repo": "catenarytransit/agency-gtfs-mirror",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:55.696329+00:00",
+      "event_id": "22910566628",
+      "repo": "jamesnuvola/Superenalotto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:56.068767+00:00",
+      "event_id": "22910566464",
+      "repo": "subash43e/Seanime-Marketplace",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-03T20:25:56.436251+00:00",
+      "event_id": "22910566713",
+      "repo": "lina-devs/lina-devs",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 12559,
-    "total_alerts": 601,
-    "cycles_run": 143,
-    "last_updated": "2026-10-03T17:42:09.585828+00:00"
+    "total_events_seen": 12645,
+    "total_alerts": 607,
+    "cycles_run": 144,
+    "last_updated": "2026-10-03T20:25:56.770834+00:00"
   }
 }
