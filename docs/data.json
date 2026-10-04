@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-27T21:46:15.010121+00:00",
-      "event_id": "22330696286",
-      "repo": "Mhhickma/Dashboard",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T21:46:15.583469+00:00",
-      "event_id": "22330696295",
-      "repo": "bh679/dungeon-train-mc",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T21:46:16.000658+00:00",
-      "event_id": "22330696312",
-      "repo": "ladyinrednessa9/Mandiant-Redline-Full-Version-Unlocked",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-27T21:46:16.428522+00:00",
       "event_id": "22330696324",
       "repo": "Srimonchaari/Srimonchaari",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T14:53:51.981591+00:00",
+      "event_id": "22975141477",
+      "repo": "Crypto-Static/Rate",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T14:53:52.390287+00:00",
+      "event_id": "22975141475",
+      "repo": "Bot-IpMan/marketing_report_studio",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T14:53:52.800112+00:00",
+      "event_id": "22975141448",
+      "repo": "dabsanddollars2024-cpu/basani-data",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 12896,
-    "total_alerts": 637,
-    "cycles_run": 147,
-    "last_updated": "2026-10-04T09:11:28.351397+00:00"
+    "total_events_seen": 12979,
+    "total_alerts": 640,
+    "cycles_run": 148,
+    "last_updated": "2026-10-04T14:53:53.122782+00:00"
   }
 }
