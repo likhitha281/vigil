@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-27T18:36:30.280913+00:00",
-      "event_id": "22320260482",
-      "repo": "Augustus79/bitvavo-market-data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T18:36:30.618277+00:00",
-      "event_id": "22320260485",
-      "repo": "mschlotterbeck12-ai/world-cup-pool-tracker",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T18:36:30.945626+00:00",
-      "event_id": "22320260508",
-      "repo": "l-butler2587/rust",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-27T18:36:31.290866+00:00",
-      "event_id": "22320260535",
-      "repo": "SirElin8290/DinPuls",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-27T18:36:31.648510+00:00",
       "event_id": "22320260630",
       "repo": "JordanTranchina/stash",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T02:47:10.687241+00:00",
+      "event_id": "22932749588",
+      "repo": "jessestrait/jessestrait.github.io",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T02:47:11.013082+00:00",
+      "event_id": "22932749558",
+      "repo": "pc0620022002/mlb-npb-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T02:47:11.319540+00:00",
+      "event_id": "22932749431",
+      "repo": "OliveProjects/marketmoood-crypto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-04T02:47:11.591597+00:00",
+      "event_id": "22932749448",
+      "repo": "garb-pinker590/alchemy-factory-performance-diagnostics",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 12726,
-    "total_alerts": 622,
-    "cycles_run": 145,
-    "last_updated": "2026-10-03T23:13:45.883716+00:00"
+    "total_events_seen": 12816,
+    "total_alerts": 626,
+    "cycles_run": 146,
+    "last_updated": "2026-10-04T02:47:11.910871+00:00"
   }
 }
