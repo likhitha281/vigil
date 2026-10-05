@@ -2202,9 +2202,9 @@
     }
   ],
   "stats": {
-    "total_events_seen": 13394,
+    "total_events_seen": 13477,
     "total_alerts": 688,
-    "cycles_run": 153,
-    "last_updated": "2026-10-05T14:09:01.083397+00:00"
+    "cycles_run": 154,
+    "last_updated": "2026-10-05T21:32:50.153073+00:00"
   }
 }
