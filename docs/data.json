@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-09-30T07:00:44.381181+00:00",
-      "event_id": "22561794876",
-      "repo": "sasasotaro1202-star/BTC-Prediction-Research",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-30T07:00:44.738338+00:00",
-      "event_id": "22561794999",
-      "repo": "fashjameswoodson53/Amv-Convert-Tool-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-30T07:00:45.067284+00:00",
-      "event_id": "22561795030",
-      "repo": "maaronfanberg-lab/me-",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-30T19:32:00.159556+00:00",
-      "event_id": "22619021722",
-      "repo": "lordon1a/Anadolu-Etkinlik",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-09-30T19:32:00.609848+00:00",
-      "event_id": "22619021815",
-      "repo": "painelhidrologico/site",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-09-30T19:32:01.070998+00:00",
       "event_id": "22619021829",
       "repo": "80947108/guovin",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-06T20:42:34.739332+00:00",
+      "event_id": "23197517918",
+      "repo": "jaydensullivan/dghost-market-app",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-06T20:42:35.068699+00:00",
+      "event_id": "23197517843",
+      "repo": "NARASIMHASAINATHNVL/seo-daily-performance-dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-06T20:42:36.357674+00:00",
+      "event_id": "23197517711",
+      "repo": "truefoundry/models",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-06T20:42:36.733916+00:00",
+      "event_id": "23197517713",
+      "repo": "opidora-26/Jaback-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-06T20:42:37.111322+00:00",
+      "event_id": "23197517781",
+      "repo": "hengjom/skills-markdown",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 13717,
-    "total_alerts": 702,
-    "cycles_run": 157,
-    "last_updated": "2026-10-06T15:36:52.574723+00:00"
+    "total_events_seen": 13801,
+    "total_alerts": 707,
+    "cycles_run": 158,
+    "last_updated": "2026-10-06T20:42:37.435169+00:00"
   }
 }
