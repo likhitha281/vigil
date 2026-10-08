@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-02T19:03:29.942148+00:00",
-      "event_id": "22818459329",
-      "repo": "linny006/llmops-radar",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T19:03:30.318968+00:00",
-      "event_id": "22818459088",
-      "repo": "kaishishangtian03-arch/-",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T19:03:30.687608+00:00",
-      "event_id": "22818459358",
-      "repo": "hkha0801-sketch/hkha0801-sketch",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-02T19:03:30.992643+00:00",
       "event_id": "22818459337",
       "repo": "deadmoroseley48/Magic-Academy-2-Full-Version",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T23:29:02.442996+00:00",
+      "event_id": "23421788524",
+      "repo": "antono4/antono4419",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T23:29:02.783996+00:00",
+      "event_id": "23421788654",
+      "repo": "sidharthjoly/ClassSniper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T23:29:03.112797+00:00",
+      "event_id": "23421788751",
+      "repo": "SirLynix/SirLynix",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 14458,
-    "total_alerts": 765,
-    "cycles_run": 166,
-    "last_updated": "2026-10-08T18:15:42.992800+00:00"
+    "total_events_seen": 14541,
+    "total_alerts": 768,
+    "cycles_run": 167,
+    "last_updated": "2026-10-08T23:29:03.404159+00:00"
   }
 }
