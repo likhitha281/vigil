@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-02T01:13:19.035259+00:00",
-      "event_id": "22744871517",
-      "repo": "aruimclasilva-tech/focos-calor-portugal",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T01:13:19.394150+00:00",
-      "event_id": "22744871518",
-      "repo": "AuraLiam/Liam-Trader-9",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T07:12:03.081799+00:00",
-      "event_id": "22767040251",
-      "repo": "KC-2001MS/flutter_test_page",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T07:12:03.446192+00:00",
-      "event_id": "22767040270",
-      "repo": "cocoonish/tto-trading",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-02T13:59:01.484044+00:00",
-      "event_id": "22795565185",
-      "repo": "policy-as-versioned-tuppence/tuppence",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-02T13:59:01.944771+00:00",
       "event_id": "22795565187",
       "repo": "ndroo/tudstats",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T11:42:48.851282+00:00",
+      "event_id": "23368916630",
+      "repo": "Etrenzik/etrenziklw.com",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T11:42:49.376872+00:00",
+      "event_id": "23368916612",
+      "repo": "chirag127/i2i-yield-watch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T11:42:49.695217+00:00",
+      "event_id": "23368916449",
+      "repo": "oridor005-ux/dofek",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T11:42:50.012054+00:00",
+      "event_id": "23368916455",
+      "repo": "sunshinescreamer75/Adblock-Edge-Full-Version-Unlocked",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-08T11:42:50.377469+00:00",
+      "event_id": "23368916519",
+      "repo": "gamelist1990/gamelist1990",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 14285,
-    "total_alerts": 748,
-    "cycles_run": 164,
-    "last_updated": "2026-10-08T04:43:10.508026+00:00"
+    "total_events_seen": 14374,
+    "total_alerts": 753,
+    "cycles_run": 165,
+    "last_updated": "2026-10-08T11:42:50.772566+00:00"
   }
 }
