@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-03T08:23:19.784675+00:00",
-      "event_id": "22866236825",
-      "repo": "Talonsturgill/alaskaaicarousels",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-03T08:23:20.145907+00:00",
-      "event_id": "22866236830",
-      "repo": "Cesafracc22/Cesafracc22",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-03T13:34:23.468658+00:00",
-      "event_id": "22884616608",
-      "repo": "soller-ara/soller-ara",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-03T13:34:23.933822+00:00",
       "event_id": "22884616653",
       "repo": "cubicecho/agent-core",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-09T17:15:36.490393+00:00",
+      "event_id": "23497220738",
+      "repo": "djhaos99urael/Mario-Xp-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-09T17:15:37.029845+00:00",
+      "event_id": "23497220691",
+      "repo": "anastasiosperamatzis-jpg/govwatch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-09T17:15:37.359552+00:00",
+      "event_id": "23497220509",
+      "repo": "a42095322-eng/taiwan-stock-dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 14706,
-    "total_alerts": 787,
-    "cycles_run": 169,
-    "last_updated": "2026-10-09T10:46:58.894238+00:00"
+    "total_events_seen": 14783,
+    "total_alerts": 790,
+    "cycles_run": 170,
+    "last_updated": "2026-10-09T17:15:37.725113+00:00"
   }
 }
