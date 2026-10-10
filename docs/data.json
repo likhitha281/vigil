@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-03T17:42:08.093953+00:00",
-      "event_id": "22900319463",
-      "repo": "dannytcchan00/0Data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-03T17:42:08.391374+00:00",
-      "event_id": "22900319476",
-      "repo": "ts-defold/deherm",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-03T17:42:08.690635+00:00",
       "event_id": "22900319546",
       "repo": "VishankhBhardwaj/VishankhBhardwaj",
@@ -2199,12 +2177,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-10T01:25:23.364511+00:00",
+      "event_id": "23537640629",
+      "repo": "nataavila1407-maker/citas-dian",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-10T01:25:24.220589+00:00",
+      "event_id": "23537640682",
+      "repo": "bitcoinforu2-ui/Wallet500",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 14865,
-    "total_alerts": 796,
-    "cycles_run": 171,
-    "last_updated": "2026-10-09T21:48:11.442943+00:00"
+    "total_events_seen": 14948,
+    "total_alerts": 798,
+    "cycles_run": 172,
+    "last_updated": "2026-10-10T01:25:24.773484+00:00"
   }
 }
