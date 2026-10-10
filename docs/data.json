@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-03T17:42:08.690635+00:00",
-      "event_id": "22900319546",
-      "repo": "VishankhBhardwaj/VishankhBhardwaj",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-03T17:42:08.951073+00:00",
-      "event_id": "22900319558",
-      "repo": "janetyoon85/shadowstadium-data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-03T17:42:09.234804+00:00",
-      "event_id": "22900319693",
-      "repo": "hovancik/ai-pr-watcher-rust",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-03T20:25:54.603965+00:00",
       "event_id": "22910566518",
       "repo": "RoyZhang7/RoyZhang7",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-10T07:26:12.039781+00:00",
+      "event_id": "23564531307",
+      "repo": "deadlock-mod-manager/deadlock-mod-manager",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-10T07:26:12.424441+00:00",
+      "event_id": "23564531211",
+      "repo": "aderoa/wnba-milestones",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-10T07:26:12.813939+00:00",
+      "event_id": "23564531263",
+      "repo": "E1i/mikoshi-construct",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 14948,
-    "total_alerts": 798,
-    "cycles_run": 172,
-    "last_updated": "2026-10-10T01:25:24.773484+00:00"
+    "total_events_seen": 15031,
+    "total_alerts": 801,
+    "cycles_run": 173,
+    "last_updated": "2026-10-10T07:26:13.248817+00:00"
   }
 }
