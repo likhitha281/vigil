@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-05T00:21:31.462692+00:00",
-      "event_id": "23011047249",
-      "repo": "smokkerwantlux285/My-Lockbox-Full-Version-Unlocked",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-05T00:21:31.915433+00:00",
-      "event_id": "23011047240",
-      "repo": "wxy040105-web/111",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-05T00:21:32.225247+00:00",
-      "event_id": "23011047230",
-      "repo": "dzhek15/dzhek15.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-05T00:21:32.497596+00:00",
-      "event_id": "23011047219",
-      "repo": "samuel-melo1/samuel-melo1",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-05T00:21:32.737541+00:00",
       "event_id": "23011047205",
       "repo": "ACANX/Distribution",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-11T13:41:55.878529+00:00",
+      "event_id": "23688810074",
+      "repo": "riquemorano/riquemorano",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-11T13:41:56.264106+00:00",
+      "event_id": "23688810065",
+      "repo": "godstark82/godstark82",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-11T13:41:56.655476+00:00",
+      "event_id": "23688810058",
+      "repo": "davanesh/davanesh",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-11T13:41:57.038412+00:00",
+      "event_id": "23688810039",
+      "repo": "PitrrV/Fx-Analyzer",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 15451,
-    "total_alerts": 858,
-    "cycles_run": 178,
-    "last_updated": "2026-10-11T06:42:19.531687+00:00"
+    "total_events_seen": 15534,
+    "total_alerts": 862,
+    "cycles_run": 179,
+    "last_updated": "2026-10-11T13:41:57.531424+00:00"
   }
 }
