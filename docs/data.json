@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-07T06:15:03.645249+00:00",
-      "event_id": "23236768046",
-      "repo": "RoGo2026/Proxy",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-07T13:40:35.687138+00:00",
-      "event_id": "23266425763",
-      "repo": "Rick-png-del/weibo-vote-tracker",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-07T13:40:36.227542+00:00",
-      "event_id": "23266425770",
-      "repo": "gaogg521/dream-core",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-07T13:40:36.547884+00:00",
-      "event_id": "23266425892",
-      "repo": "framerwiz-cloud/job-alert-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-07T13:40:36.884019+00:00",
       "event_id": "23266425933",
       "repo": "skizzunni/HEHE",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-13T20:45:27.080991+00:00",
+      "event_id": "23910458450",
+      "repo": "ACANX/Distribution",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-13T20:45:27.515394+00:00",
+      "event_id": "23910458462",
+      "repo": "adamblackwood/vpn-tunnel",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-13T20:45:27.977447+00:00",
+      "event_id": "23910458702",
+      "repo": "lucasamuca/lucasamuca",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-13T20:45:28.493195+00:00",
+      "event_id": "23910458533",
+      "repo": "HYANGKI-LEE/news-to-telegram",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 16187,
-    "total_alerts": 930,
-    "cycles_run": 187,
-    "last_updated": "2026-10-13T15:10:46.341332+00:00"
+    "total_events_seen": 16269,
+    "total_alerts": 934,
+    "cycles_run": 188,
+    "last_updated": "2026-10-13T20:45:31.648089+00:00"
   }
 }
