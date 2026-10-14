@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-08T23:29:02.783996+00:00",
-      "event_id": "23421788654",
-      "repo": "sidharthjoly/ClassSniper",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-08T23:29:03.112797+00:00",
-      "event_id": "23421788751",
-      "repo": "SirLynix/SirLynix",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T03:02:42.956254+00:00",
-      "event_id": "23436647604",
-      "repo": "lguzzon/lguzzon",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T03:02:43.295873+00:00",
-      "event_id": "23436647536",
-      "repo": "RoyneThu0/RoyneThu0",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-09T03:02:43.587264+00:00",
       "event_id": "23436647529",
       "repo": "yangyu2010/AppPriceTracker",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-14T15:18:04.231502+00:00",
+      "event_id": "23985458245",
+      "repo": "joerglohrer/kanu-hohenlohe",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-14T15:18:04.575362+00:00",
+      "event_id": "23985458243",
+      "repo": "yeshan333/awesome-tech-weekly-zh",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-14T15:18:04.973243+00:00",
+      "event_id": "23985458217",
+      "repo": "audiotesting/traffic_stats",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-14T15:18:05.388414+00:00",
+      "event_id": "23985457974",
+      "repo": "BuriXon-code/BuriXon-code",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 16512,
-    "total_alerts": 966,
-    "cycles_run": 191,
-    "last_updated": "2026-10-14T10:23:55.724749+00:00"
+    "total_events_seen": 16600,
+    "total_alerts": 970,
+    "cycles_run": 192,
+    "last_updated": "2026-10-14T15:18:06.975910+00:00"
   }
 }
