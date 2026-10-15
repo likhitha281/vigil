@@ -1,72 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-09T10:46:58.637929+00:00",
-      "event_id": "23468036935",
-      "repo": "AnAi05/AnAi05",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T17:15:36.490393+00:00",
-      "event_id": "23497220738",
-      "repo": "djhaos99urael/Mario-Xp-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T17:15:37.029845+00:00",
-      "event_id": "23497220691",
-      "repo": "anastasiosperamatzis-jpg/govwatch",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T17:15:37.359552+00:00",
-      "event_id": "23497220509",
-      "repo": "a42095322-eng/taiwan-stock-dashboard",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T21:48:09.273285+00:00",
-      "event_id": "23518992218",
-      "repo": "shovelbox/shovelbox",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-09T21:48:09.686196+00:00",
-      "event_id": "23518992247",
-      "repo": "Yudya404/Yudya404",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-09T21:48:10.033253+00:00",
       "event_id": "23518992590",
       "repo": "kafungto-debug/ftse-agent",
@@ -2199,12 +2133,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:20.409374+00:00",
+      "event_id": "24029234762",
+      "repo": "LoboSol-1/my-project-3",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:20.852719+00:00",
+      "event_id": "24029234717",
+      "repo": "vudh1/ballerwatch",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:21.316608+00:00",
+      "event_id": "24029234706",
+      "repo": "KaSiang666/Test",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:21.733111+00:00",
+      "event_id": "24029234693",
+      "repo": "open-telemetry/shared-workflows",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:22.163487+00:00",
+      "event_id": "24029234640",
+      "repo": "donkey-kong-forum/streamers-list",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-15T01:09:22.587259+00:00",
+      "event_id": "24029234582",
+      "repo": "smokkerlymu/My-Drivers-Full-Version-Unlocked",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 16763,
-    "total_alerts": 986,
-    "cycles_run": 194,
-    "last_updated": "2026-10-14T22:54:35.333803+00:00"
+    "total_events_seen": 16849,
+    "total_alerts": 992,
+    "cycles_run": 195,
+    "last_updated": "2026-10-15T01:09:23.083280+00:00"
   }
 }
