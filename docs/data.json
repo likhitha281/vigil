@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-11T22:37:10.704186+00:00",
-      "event_id": "23721759452",
-      "repo": "Ghost87/ARMATCHER",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-11T22:37:11.093625+00:00",
-      "event_id": "23721759442",
-      "repo": "megs140-crofts/Junxions-Devlog-2026",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-11T22:37:11.491618+00:00",
-      "event_id": "23721759725",
-      "repo": "kohtarock-dev/kohtarock",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-11T22:37:11.927191+00:00",
-      "event_id": "23721759822",
-      "repo": "Oscarbellosido/Activitats",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-11T22:37:12.416855+00:00",
       "event_id": "23721759936",
       "repo": "davidjeng1989i1/Phantom-Blade-Zero-Beta-2026",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-17T00:04:56.906542+00:00",
+      "event_id": "24254995133",
+      "repo": "NodeBE4/oped2",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-17T00:04:58.533904+00:00",
+      "event_id": "24254995207",
+      "repo": "marcoshimselfxd/EPG-Scrapper-BR",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-17T00:04:58.838344+00:00",
+      "event_id": "24254995213",
+      "repo": "antono4/almanak.github.io",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-17T00:04:59.090372+00:00",
+      "event_id": "24254995334",
+      "repo": "stivenaluguel-cyber/Reginaldo-Rosso-",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 17732,
-    "total_alerts": 1080,
-    "cycles_run": 206,
-    "last_updated": "2026-10-16T21:51:24.784713+00:00"
+    "total_events_seen": 17809,
+    "total_alerts": 1084,
+    "cycles_run": 207,
+    "last_updated": "2026-10-17T00:04:59.357551+00:00"
   }
 }
