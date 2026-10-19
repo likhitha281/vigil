@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-17T08:57:17.767259+00:00",
-      "event_id": "24296429898",
-      "repo": "abdusamadislomjonov121306-del/karyera-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-17T08:57:18.081438+00:00",
-      "event_id": "24296429943",
-      "repo": "maireni05/planet-lotteries",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-17T08:57:18.384711+00:00",
-      "event_id": "24296429712",
-      "repo": "GabrielSantos15/brazilian-market-analytics",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-17T12:41:51.704971+00:00",
-      "event_id": "24313982764",
-      "repo": "AngrybirdQ/pm-esports-public",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-17T12:41:52.377904+00:00",
       "event_id": "24313982826",
       "repo": "kohei-omura/FX-Signal-Notifier",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-19T17:37:33.249228+00:00",
+      "event_id": "24548603891",
+      "repo": "krlmlr/duckdb-r",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-19T17:37:33.591230+00:00",
+      "event_id": "24548603611",
+      "repo": "achilles-74/Adobe-Flash-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-19T17:37:33.989392+00:00",
+      "event_id": "24548603594",
+      "repo": "pjk3864/dogdrip-archive",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-19T17:37:34.407312+00:00",
+      "event_id": "24548603555",
+      "repo": "dfgshcv2534-ui/house",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 19198,
-    "total_alerts": 1299,
-    "cycles_run": 224,
-    "last_updated": "2026-10-19T11:01:42.524195+00:00"
+    "total_events_seen": 19276,
+    "total_alerts": 1303,
+    "cycles_run": 225,
+    "last_updated": "2026-10-19T17:37:34.739751+00:00"
   }
 }
