@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-18T11:29:30.002193+00:00",
-      "event_id": "24421750479",
-      "repo": "dolleybarmaley9/Player-Side",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T11:29:30.799448+00:00",
-      "event_id": "24421750462",
-      "repo": "23Louis23/comparateur",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T11:29:31.087540+00:00",
-      "event_id": "24421750441",
-      "repo": "corsmammamia765/The-Legend-Of-Vraz-Full-Version-Unlocked",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T11:29:31.391880+00:00",
-      "event_id": "24421750431",
-      "repo": "nuuuwan/gov_lk_web_auditor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T11:29:31.815007+00:00",
-      "event_id": "24421750417",
-      "repo": "tylerherman19/hopscotch",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-18T11:29:32.172353+00:00",
       "event_id": "24421750373",
       "repo": "alona-zubenko/public-news",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T12:08:14.685827+00:00",
+      "event_id": "24711041878",
+      "repo": "siuyeong/hkspd-json-cache",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T12:08:15.091046+00:00",
+      "event_id": "24711041919",
+      "repo": "ahsan520/test2",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T12:08:15.511933+00:00",
+      "event_id": "24711041924",
+      "repo": "Anjos-Nicolas/Anjos-Nicolas",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T12:08:15.846830+00:00",
+      "event_id": "24711041954",
+      "repo": "Dev3mmm/trading-hub",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T12:08:16.152642+00:00",
+      "event_id": "24711042341",
+      "repo": "CJX0712/CJX0712",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 20019,
-    "total_alerts": 1393,
-    "cycles_run": 234,
-    "last_updated": "2026-10-21T06:14:28.830546+00:00"
+    "total_events_seen": 20096,
+    "total_alerts": 1398,
+    "cycles_run": 235,
+    "last_updated": "2026-10-21T12:08:16.504992+00:00"
   }
 }
