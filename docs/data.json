@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-18T01:18:59.603047+00:00",
-      "event_id": "24374291597",
-      "repo": "deanyurukov/deanyurukov",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T01:18:59.912559+00:00",
-      "event_id": "24374291311",
-      "repo": "amiminn/amiminn",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T01:19:00.179276+00:00",
-      "event_id": "24374291339",
-      "repo": "ivory-axiom28/aliupipcucc",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T01:19:00.457636+00:00",
-      "event_id": "24374291396",
-      "repo": "jaumersss/testflight-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T01:19:00.746500+00:00",
-      "event_id": "24374291439",
-      "repo": "ChetwynKeam/clearway-atc",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-18T01:19:00.992168+00:00",
       "event_id": "24374291467",
       "repo": "Purushottam9696/product-job-radar",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T01:10:25.464892+00:00",
+      "event_id": "24669938996",
+      "repo": "easter2apply/btc-scout",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T01:10:25.886141+00:00",
+      "event_id": "24669938583",
+      "repo": "gaurav-gandhi-2411/gold-rate-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T01:10:26.295703+00:00",
+      "event_id": "24669939082",
+      "repo": "usheenes59icebaer/Baidu-Spark-Browser-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T01:10:26.743197+00:00",
+      "event_id": "24669939208",
+      "repo": "chlst13/agen-fpl",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-21T01:10:27.066051+00:00",
+      "event_id": "24669939241",
+      "repo": "JeffResc/charts",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": true,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 19854,
-    "total_alerts": 1374,
-    "cycles_run": 232,
-    "last_updated": "2026-10-20T22:52:06.579453+00:00"
+    "total_events_seen": 19937,
+    "total_alerts": 1379,
+    "cycles_run": 233,
+    "last_updated": "2026-10-21T01:10:27.478787+00:00"
   }
 }
