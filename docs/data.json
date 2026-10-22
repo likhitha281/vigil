@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-18T19:55:23.681347+00:00",
-      "event_id": "24459598172",
-      "repo": "AshfaqAIML/ai-engineering-from-scratch",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-18T19:55:24.373118+00:00",
-      "event_id": "24459598174",
-      "repo": "prakriti31/prakriti31",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-18T19:55:24.720334+00:00",
       "event_id": "24459598181",
       "repo": "moritzlauper/angebunden",
@@ -2199,12 +2177,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-22T08:11:20.581128+00:00",
+      "event_id": "24788101922",
+      "repo": "Deasus/geo-feeds",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-22T08:11:21.024811+00:00",
+      "event_id": "24788101874",
+      "repo": "SuperShary/SuperShary",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 20422,
-    "total_alerts": 1437,
-    "cycles_run": 239,
-    "last_updated": "2026-10-22T02:45:50.465445+00:00"
+    "total_events_seen": 20502,
+    "total_alerts": 1439,
+    "cycles_run": 240,
+    "last_updated": "2026-10-22T08:11:21.520321+00:00"
   }
 }
