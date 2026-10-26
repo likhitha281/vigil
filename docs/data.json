@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-23T19:24:11.963528+00:00",
-      "event_id": "24949433783",
-      "repo": "bianosomequipadora-cpu/sokkerpro-host",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-23T19:24:12.589065+00:00",
-      "event_id": "24949434349",
-      "repo": "cyx0118/cyx0118",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-23T19:24:12.915486+00:00",
-      "event_id": "24949434330",
-      "repo": "mrezasamangan-create/khabar-fouri",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-23T19:24:13.354688+00:00",
-      "event_id": "24949434306",
-      "repo": "asifmustafa87/asifmustafa87",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-23T19:24:14.525298+00:00",
-      "event_id": "24949434142",
-      "repo": "dinkmatteoward38/Trackmania-2-Stadium",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-23T19:24:14.978111+00:00",
       "event_id": "24949434193",
       "repo": "cao-pinto/union.diersbach-zisterne",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-26T12:00:58.906470+00:00",
+      "event_id": "25224921902",
+      "repo": "Ghost87/ARMATCHER",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-26T12:00:59.342719+00:00",
+      "event_id": "25224921907",
+      "repo": "thedoggybrad/easylist-mirror",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-26T12:01:00.111494+00:00",
+      "event_id": "25224921915",
+      "repo": "mehrdadmb2/ArzPulse",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-26T12:01:00.496371+00:00",
+      "event_id": "25224921967",
+      "repo": "DroneWuKong/drone-integration-handbook",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-26T12:01:00.910432+00:00",
+      "event_id": "25224921592",
+      "repo": "aliexpressgood585/spacehub",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 22541,
-    "total_alerts": 1713,
-    "cycles_run": 265,
-    "last_updated": "2026-10-26T05:40:18.374879+00:00"
+    "total_events_seen": 22628,
+    "total_alerts": 1718,
+    "cycles_run": 266,
+    "last_updated": "2026-10-26T12:01:01.317273+00:00"
   }
 }
