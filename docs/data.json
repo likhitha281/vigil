@@ -1,17 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-24T00:56:10.265872+00:00",
-      "event_id": "24973025950",
-      "repo": "silasfelinus/conductor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-24T00:56:10.640592+00:00",
       "event_id": "24973025927",
       "repo": "NabzKhabarOfficial/NabzKhabar",
@@ -2199,12 +2188,23 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-27T07:08:42.619529+00:00",
+      "event_id": "25304362420",
+      "repo": "open-telemetry/shared-workflows",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 22876,
-    "total_alerts": 1748,
-    "cycles_run": 269,
-    "last_updated": "2026-10-27T01:51:09.161578+00:00"
+    "total_events_seen": 22955,
+    "total_alerts": 1749,
+    "cycles_run": 270,
+    "last_updated": "2026-10-27T07:08:43.038203+00:00"
   }
 }
