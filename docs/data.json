@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-24T13:45:43.669544+00:00",
-      "event_id": "25029028563",
-      "repo": "foozoobell847/Pirch-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-24T13:45:44.124485+00:00",
-      "event_id": "25029028525",
-      "repo": "m3sh2003/oracle-status",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-24T13:45:44.465526+00:00",
       "event_id": "25029028511",
       "repo": "Xacox01/vuelos-rio-live",
@@ -2199,12 +2177,34 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-28T01:56:48.411841+00:00",
+      "event_id": "25381321443",
+      "repo": "open-telemetry/shared-workflows",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-28T01:56:48.840130+00:00",
+      "event_id": "25381321450",
+      "repo": "Levi56892/twse-mcp",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 23203,
-    "total_alerts": 1772,
-    "cycles_run": 273,
-    "last_updated": "2026-10-27T22:47:35.671796+00:00"
+    "total_events_seen": 23284,
+    "total_alerts": 1774,
+    "cycles_run": 274,
+    "last_updated": "2026-10-28T01:56:49.091490+00:00"
   }
 }
