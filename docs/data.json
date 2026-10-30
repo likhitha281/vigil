@@ -1,72 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-25T14:08:39.114900+00:00",
-      "event_id": "25132771402",
-      "repo": "inline421/game-watch",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-25T14:08:39.407703+00:00",
-      "event_id": "25132771356",
-      "repo": "MithunWijayasiri/my-uBlock-filters",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-25T14:08:39.680601+00:00",
-      "event_id": "25132771373",
-      "repo": "sasasotaro1202-star/BTC-Prediction-Research",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-25T14:08:39.976732+00:00",
-      "event_id": "25132771397",
-      "repo": "sriedl271-glitch/pv-heizstab-automation",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-25T17:44:28.678079+00:00",
-      "event_id": "25148592151",
-      "repo": "ModernViking1/vikinginvest-prices",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-25T17:44:29.001155+00:00",
-      "event_id": "25148592082",
-      "repo": "rodjacin/Flota-dashboards",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-25T17:44:29.259376+00:00",
       "event_id": "25148592023",
       "repo": "kherrick/soylent-news",
@@ -2199,12 +2133,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:03.307932+00:00",
+      "event_id": "25580105583",
+      "repo": "5H13BYYY/Tech_News_Bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:03.735591+00:00",
+      "event_id": "25580105520",
+      "repo": "cogitate-4925ricks/Long-Gone-Devlog-2026",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:04.297438+00:00",
+      "event_id": "25580105154",
+      "repo": "sean-meta-x/global-mining-screener",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:04.826716+00:00",
+      "event_id": "25580105444",
+      "repo": "Olbrasoft/sdilejcz",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:05.239168+00:00",
+      "event_id": "25580105387",
+      "repo": "shahinsafaei/price-widget",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-10-30T02:46:05.647393+00:00",
+      "event_id": "25580105348",
+      "repo": "abdulrahmanalhamoud1673/fortnite-leaks-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 23931,
-    "total_alerts": 1851,
-    "cycles_run": 282,
-    "last_updated": "2026-10-29T23:27:19.012556+00:00"
+    "total_events_seen": 24014,
+    "total_alerts": 1857,
+    "cycles_run": 283,
+    "last_updated": "2026-10-30T02:46:06.050279+00:00"
   }
 }
