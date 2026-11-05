@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-01T10:56:26.882430+00:00",
-      "event_id": "25823461878",
-      "repo": "jenshol/almejon",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T10:56:27.497458+00:00",
-      "event_id": "25823461859",
-      "repo": "janetyoon85/shadowstadium-data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T10:56:28.064751+00:00",
-      "event_id": "25823461753",
-      "repo": "ashbaruh/news-site",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T10:56:28.434897+00:00",
-      "event_id": "25823461721",
-      "repo": "cortadosnir-design/cortado-app",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T10:56:28.955601+00:00",
-      "event_id": "25823461710",
-      "repo": "isaacrome21-sys/SportsEdge",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-01T10:56:29.325576+00:00",
       "event_id": "25823461689",
       "repo": "dngnyoo/tdeck-parking-data",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T22:37:32.744645+00:00",
+      "event_id": "26273680778",
+      "repo": "felipekrugel-eng/tars-overview",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T22:37:33.420895+00:00",
+      "event_id": "26273680916",
+      "repo": "eyayq/eliv",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T22:37:33.962651+00:00",
+      "event_id": "26273681007",
+      "repo": "engineerlish/geeked-ai-status",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T22:37:34.406407+00:00",
+      "event_id": "26273681093",
+      "repo": "gioyous-it/actionbox-vm",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T22:37:34.774371+00:00",
+      "event_id": "26273681107",
+      "repo": "jeremydevera/analyzer-x",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 26259,
-    "total_alerts": 2171,
-    "cycles_run": 310,
-    "last_updated": "2026-11-05T16:59:57.233216+00:00"
+    "total_events_seen": 26344,
+    "total_alerts": 2176,
+    "cycles_run": 311,
+    "last_updated": "2026-11-05T22:37:35.223418+00:00"
   }
 }
