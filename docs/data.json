@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-10-31T23:53:03.087746+00:00",
-      "event_id": "25773661466",
-      "repo": "GlueOps/e2e-github-actions-deployment-configurations",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-31T23:53:03.449553+00:00",
-      "event_id": "25773661611",
-      "repo": "josthin45/EmEditor-24.1.1-Pro-Cli-Tools",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-31T23:53:03.744443+00:00",
-      "event_id": "25773661601",
-      "repo": "gerlofvanek/bsx_ob_data",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-10-31T23:53:04.274996+00:00",
-      "event_id": "25773661543",
-      "repo": "JetragonRider/reddit-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-10-31T23:53:04.640364+00:00",
       "event_id": "25773661520",
       "repo": "user-4382719301/sports-score-app-snapshots",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T08:50:00.305591+00:00",
+      "event_id": "26218111066",
+      "repo": "mokotohuang/stock-daily",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T08:50:00.809920+00:00",
+      "event_id": "26218111035",
+      "repo": "darrenthetrainfan-cloud/TTC-Monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T08:50:01.334979+00:00",
+      "event_id": "26218110797",
+      "repo": "readbarapp/iphone-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-05T08:50:01.919291+00:00",
+      "event_id": "26218110709",
+      "repo": "Kaim222/btc-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 26088,
-    "total_alerts": 2158,
-    "cycles_run": 308,
-    "last_updated": "2026-11-05T01:34:24.612223+00:00"
+    "total_events_seen": 26174,
+    "total_alerts": 2162,
+    "cycles_run": 309,
+    "last_updated": "2026-11-05T08:50:02.363331+00:00"
   }
 }
