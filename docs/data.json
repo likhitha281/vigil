@@ -1,94 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-01T16:59:08.324284+00:00",
-      "event_id": "25850292798",
-      "repo": "herry162/btc-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:08.639519+00:00",
-      "event_id": "25850292691",
-      "repo": "mols3131d/adudeck",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:09.002257+00:00",
-      "event_id": "25850292825",
-      "repo": "samueldiamond/samueldiamond.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:09.435542+00:00",
-      "event_id": "25850292328",
-      "repo": "antono4/dosenfolio",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:09.741553+00:00",
-      "event_id": "25850292278",
-      "repo": "ooep/delay",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:10.083474+00:00",
-      "event_id": "25850292266",
-      "repo": "klimentiev-a/konspekty",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:10.384308+00:00",
-      "event_id": "25850292241",
-      "repo": "shukyurkevin/shukyurkevin",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-01T16:59:10.664178+00:00",
-      "event_id": "25850292215",
-      "repo": "headmin/dex-board",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-01T16:59:11.075340+00:00",
       "event_id": "25850292674",
       "repo": "Olbrasoft/sdilej-serialy",
@@ -2199,12 +2111,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:17.642607+00:00",
+      "event_id": "26355294932",
+      "repo": "im-shlok/im-shlok",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:18.133820+00:00",
+      "event_id": "26355294983",
+      "repo": "maedayuuki0706-creator/-AI",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:18.484970+00:00",
+      "event_id": "26355295051",
+      "repo": "suixinga/ai-host",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:18.750235+00:00",
+      "event_id": "26355295122",
+      "repo": "dohaab14/dohaab14",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:19.011745+00:00",
+      "event_id": "26355295160",
+      "repo": "codefortoyama/kitekite",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:19.411122+00:00",
+      "event_id": "26355295273",
+      "repo": "malikshi/AnotherBlacklist",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:26.727428+00:00",
+      "event_id": "26355295340",
+      "repo": "Ovis/blog.hitsujin.jp.article",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-06T18:10:27.008990+00:00",
+      "event_id": "26355295380",
+      "repo": "victron-venus/dbus-pump",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 26509,
-    "total_alerts": 2194,
-    "cycles_run": 313,
-    "last_updated": "2026-11-06T11:16:08.433576+00:00"
+    "total_events_seen": 26588,
+    "total_alerts": 2202,
+    "cycles_run": 314,
+    "last_updated": "2026-11-06T18:10:27.458384+00:00"
   }
 }
