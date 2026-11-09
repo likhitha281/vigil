@@ -1,94 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-05T01:34:21.672685+00:00",
-      "event_id": "26186948430",
-      "repo": "sbyy77/sbyy77",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:22.045127+00:00",
-      "event_id": "26186948361",
-      "repo": "illkeeen3434343-eng/Bina-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:22.496161+00:00",
-      "event_id": "26186948336",
-      "repo": "sarsx3/aladin420",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:22.877486+00:00",
-      "event_id": "26186948303",
-      "repo": "NotCodr/delegate-status",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:23.272211+00:00",
-      "event_id": "26186948283",
-      "repo": "edukatiau/edukatiau",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:23.622779+00:00",
-      "event_id": "26186948277",
-      "repo": "Chris-Wolfgang/ETL-Transformers",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T01:34:24.185074+00:00",
-      "event_id": "26186948221",
-      "repo": "virgo38black/Youtube-Music-Downloader-Full-Version",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-05T08:50:00.305591+00:00",
-      "event_id": "26218111066",
-      "repo": "mokotohuang/stock-daily",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-05T08:50:00.809920+00:00",
       "event_id": "26218111035",
       "repo": "darrenthetrainfan-cloud/TTC-Monitor",
@@ -2199,12 +2111,100 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:19.814472+00:00",
+      "event_id": "26625026216",
+      "repo": "Saithabid/European-news",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:20.281857+00:00",
+      "event_id": "26625026362",
+      "repo": "numberone-katyan/Half-Sword-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:20.715155+00:00",
+      "event_id": "26625026366",
+      "repo": "Iwanian/Sub",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:21.043604+00:00",
+      "event_id": "26625026375",
+      "repo": "moustafatafa/news",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:21.348934+00:00",
+      "event_id": "26625026433",
+      "repo": "StefanWiswedel/digeweather",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:21.620382+00:00",
+      "event_id": "26625026582",
+      "repo": "Nikita123Apple/applebay",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:21.902881+00:00",
+      "event_id": "26625026761",
+      "repo": "warara/gh_page",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-09T06:59:22.168087+00:00",
+      "event_id": "26625026632",
+      "repo": "stardust-dipper/Ice-Age-Adventures-Full-Version",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 27504,
-    "total_alerts": 2351,
-    "cycles_run": 325,
-    "last_updated": "2026-11-09T00:26:45.614076+00:00"
+    "total_events_seen": 27587,
+    "total_alerts": 2359,
+    "cycles_run": 326,
+    "last_updated": "2026-11-09T06:59:22.476857+00:00"
   }
 }
