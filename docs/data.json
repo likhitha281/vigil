@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-07T09:41:45.986593+00:00",
-      "event_id": "26421696649",
-      "repo": "Hattrick-msn/laliga-2026-report",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T09:41:46.282464+00:00",
-      "event_id": "26421696698",
-      "repo": "filipefranc0/filipefranc0",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T09:41:46.540540+00:00",
-      "event_id": "26421696700",
-      "repo": "valdesalex369/Nexus",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T09:41:46.818945+00:00",
-      "event_id": "26421696708",
-      "repo": "preppersbr1-glitch/monitor-preppers-br",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-07T09:41:47.046447+00:00",
       "event_id": "26421696399",
       "repo": "syddanyysamp6/Ignite-Full-Version",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-11T23:14:26.012782+00:00",
+      "event_id": "26883291833",
+      "repo": "vazxanana/macro-dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-11T23:14:26.529663+00:00",
+      "event_id": "26883291124",
+      "repo": "supbose/vitepress-template",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-11T23:14:27.012046+00:00",
+      "event_id": "26883291697",
+      "repo": "Julz43823142/Ydhnd902137812",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-11T23:14:27.501646+00:00",
+      "event_id": "26883291806",
+      "repo": "josephbrewerton-oss/wwwebucation",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 28249,
-    "total_alerts": 2432,
-    "cycles_run": 334,
-    "last_updated": "2026-11-11T16:48:34.455535+00:00"
+    "total_events_seen": 28323,
+    "total_alerts": 2436,
+    "cycles_run": 335,
+    "last_updated": "2026-11-11T23:14:27.997322+00:00"
   }
 }
