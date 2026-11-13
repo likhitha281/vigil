@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-07T23:44:47.606305+00:00",
-      "event_id": "26484221607",
-      "repo": "edbass1/segnali-ht",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:47.991157+00:00",
-      "event_id": "26484221637",
-      "repo": "jackarsenal/qodds",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:48.435649+00:00",
-      "event_id": "26484221648",
-      "repo": "tjshea90/novig",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:48.810523+00:00",
-      "event_id": "26484221715",
-      "repo": "daowei88/daoid",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:49.284592+00:00",
-      "event_id": "26484221860",
-      "repo": "Bigblok-ai/gv-port",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-07T23:44:49.776530+00:00",
       "event_id": "26484221864",
       "repo": "danielreinaux/didi",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T08:21:50.936820+00:00",
+      "event_id": "27016262825",
+      "repo": "misterplusev/abet-odds-monitors",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T08:21:51.418104+00:00",
+      "event_id": "27016262861",
+      "repo": "TanTzeHerng/chess.com-puzzles",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T08:21:51.976871+00:00",
+      "event_id": "27016263000",
+      "repo": "iam-sunny/iam-sunny",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T08:21:52.529486+00:00",
+      "event_id": "27016262924",
+      "repo": "yodesarrollomx/sala-edicion",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T08:21:53.125973+00:00",
+      "event_id": "27016262996",
+      "repo": "yedong299-ux/hl-oi-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 28628,
-    "total_alerts": 2478,
-    "cycles_run": 339,
-    "last_updated": "2026-11-13T01:17:49.949138+00:00"
+    "total_events_seen": 28707,
+    "total_alerts": 2483,
+    "cycles_run": 340,
+    "last_updated": "2026-11-13T08:21:53.726621+00:00"
   }
 }
