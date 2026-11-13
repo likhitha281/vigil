@@ -1,83 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-07T20:04:59.240432+00:00",
-      "event_id": "26467736232",
-      "repo": "exo-clipper/tbhjustamcuserhunter",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:44.415813+00:00",
-      "event_id": "26484221367",
-      "repo": "anaclat/anaclat",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:45.040901+00:00",
-      "event_id": "26484221377",
-      "repo": "tedy0814lin-dotcom/-",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:45.600647+00:00",
-      "event_id": "26484221451",
-      "repo": "unaquatic/catalog",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:46.343325+00:00",
-      "event_id": "26484221510",
-      "repo": "arsazet17/pozitron-keno-4m",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:46.749272+00:00",
-      "event_id": "26484221557",
-      "repo": "hussainakeelb-sketch/fathal",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-07T23:44:47.217793+00:00",
-      "event_id": "26484221569",
-      "repo": "yinkaadx/disaster-economics-engine",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-07T23:44:47.606305+00:00",
       "event_id": "26484221607",
       "repo": "edbass1/segnali-ht",
@@ -2199,12 +2122,89 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:47.529644+00:00",
+      "event_id": "26986983331",
+      "repo": "im-hari-potter/planner-plus",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:48.068897+00:00",
+      "event_id": "26986983050",
+      "repo": "drbcds/college-soccer-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:48.334748+00:00",
+      "event_id": "26986983207",
+      "repo": "Lela810/Lela810",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:48.602668+00:00",
+      "event_id": "26986983164",
+      "repo": "beyond-motion/articles_blog",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:48.935397+00:00",
+      "event_id": "26986983161",
+      "repo": "brovira/btc-cycle-terminal",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:49.340847+00:00",
+      "event_id": "26986983112",
+      "repo": "markup-ux/knowthevote",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T01:17:49.646129+00:00",
+      "event_id": "26986983106",
+      "repo": "rawrzcookie/tt2_breakpoints",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 28555,
-    "total_alerts": 2471,
-    "cycles_run": 338,
-    "last_updated": "2026-11-12T20:13:39.927690+00:00"
+    "total_events_seen": 28628,
+    "total_alerts": 2478,
+    "cycles_run": 339,
+    "last_updated": "2026-11-13T01:17:49.949138+00:00"
   }
 }
