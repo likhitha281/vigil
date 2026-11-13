@@ -1,105 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-07T23:44:49.776530+00:00",
-      "event_id": "26484221864",
-      "repo": "danielreinaux/didi",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:13.146478+00:00",
-      "event_id": "26502544691",
-      "repo": "ryes-wirakusuma/ryes-wirakusuma",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:13.567299+00:00",
-      "event_id": "26502544645",
-      "repo": "ahroyun/Community-Monitoring-Dashboard",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:14.067636+00:00",
-      "event_id": "26502544642",
-      "repo": "ppguzenes11-lgtm/futbolcuverideneme",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:14.563517+00:00",
-      "event_id": "26502544634",
-      "repo": "l4mbh/l4mbh",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:15.086826+00:00",
-      "event_id": "26502544607",
-      "repo": "TanTzeHerng/chess.com-puzzles",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:15.475640+00:00",
-      "event_id": "26502544577",
-      "repo": "RoyalBot-BETA/discord-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:15.871753+00:00",
-      "event_id": "26502544291",
-      "repo": "knockout198/Wassapp",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T03:44:16.232927+00:00",
-      "event_id": "26502544311",
-      "repo": "domoviy/mova",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-08T03:44:16.584535+00:00",
       "event_id": "26502544313",
       "repo": "ferjpersonalmail-art/alertas-lluvia-fenalce",
@@ -2199,12 +2100,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:00.857877+00:00",
+      "event_id": "27048660006",
+      "repo": "JSPrismarine/JSPrismarine",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:03.154644+00:00",
+      "event_id": "27048660028",
+      "repo": "movilpymecenter-gif/mr-black-river-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:03.546320+00:00",
+      "event_id": "27048659780",
+      "repo": "dipoddc/tiktok-live-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:03.830453+00:00",
+      "event_id": "27048659730",
+      "repo": "samuelseidel/samuelseidel",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:04.134581+00:00",
+      "event_id": "27048659700",
+      "repo": "2eronia/sedgeTool",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:04.542142+00:00",
+      "event_id": "27048659694",
+      "repo": "Olbrasoft/series-to-prehrajto-2",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:04.868217+00:00",
+      "event_id": "27048659628",
+      "repo": "OnyxJordan/onyx-baseball-fix",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:05.173766+00:00",
+      "event_id": "27048659593",
+      "repo": "magicalstore2023-cpu/claude-trading-simulator",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-13T16:38:05.462341+00:00",
+      "event_id": "27048659564",
+      "repo": "Mhhickma/Dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 28707,
-    "total_alerts": 2483,
-    "cycles_run": 340,
-    "last_updated": "2026-11-13T08:21:53.726621+00:00"
+    "total_events_seen": 28785,
+    "total_alerts": 2492,
+    "cycles_run": 341,
+    "last_updated": "2026-11-13T16:38:05.781831+00:00"
   }
 }
