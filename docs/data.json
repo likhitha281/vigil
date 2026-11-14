@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-08T20:56:01.360764+00:00",
-      "event_id": "26580073195",
-      "repo": "Tohshi-memo/HyperLiquid-Bot-test",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T20:56:04.884235+00:00",
-      "event_id": "26580073098",
-      "repo": "Prinxe-crypto/gap-maker-depth-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T20:56:05.241676+00:00",
-      "event_id": "26580073066",
-      "repo": "samirskoura/partner2-bot-list",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T20:56:05.566493+00:00",
-      "event_id": "26580073056",
-      "repo": "shimewtr/wall-race",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-08T20:56:05.891449+00:00",
-      "event_id": "26580073053",
-      "repo": "Markney/YHfgvvvas",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-08T20:56:06.199613+00:00",
       "event_id": "26580073068",
       "repo": "divineistaken/Carrytrackeromen",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-14T16:16:36.770866+00:00",
+      "event_id": "27147880012",
+      "repo": "pelipe-cloud/pelipe",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-14T16:16:37.317027+00:00",
+      "event_id": "27147880032",
+      "repo": "lucas12839/Clima-ar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-14T16:16:37.745539+00:00",
+      "event_id": "27147880054",
+      "repo": "dianamahdi3130-cmd/rasad",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-14T16:16:38.047808+00:00",
+      "event_id": "27147880083",
+      "repo": "takiang71/fire-map-dpky",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-14T16:16:38.321808+00:00",
+      "event_id": "27147880214",
+      "repo": "n-codder/ubt-dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 29011,
-    "total_alerts": 2520,
-    "cycles_run": 344,
-    "last_updated": "2026-11-14T09:41:17.660892+00:00"
+    "total_events_seen": 29091,
+    "total_alerts": 2525,
+    "cycles_run": 345,
+    "last_updated": "2026-11-14T16:16:38.667052+00:00"
   }
 }
