@@ -1,72 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-10T00:47:01.677158+00:00",
-      "event_id": "26697039042",
-      "repo": "Olbrasoft/sdilejcz",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:02.921165+00:00",
-      "event_id": "26697039171",
-      "repo": "eltonaguiar/findtorontoevents_antigravity.ca",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:03.215409+00:00",
-      "event_id": "26697039172",
-      "repo": "GC-dakryoja/rwph",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:03.514704+00:00",
-      "event_id": "26697039191",
-      "repo": "KenyuOshimaToshitaka/AutoGreen",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:03.777977+00:00",
-      "event_id": "26697039203",
-      "repo": "tung9bqh/value-alpha-btc-bot",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:04.038623+00:00",
-      "event_id": "26697039231",
-      "repo": "vjumbo264/basileia-archives",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-10T00:47:04.335196+00:00",
       "event_id": "26697039238",
       "repo": "wacayoub/EPGManager",
@@ -2199,12 +2133,78 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:42.810626+00:00",
+      "event_id": "27271246304",
+      "repo": "AndreasKaratzas/vllm-ci-dashboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:43.095426+00:00",
+      "event_id": "27271246297",
+      "repo": "jimp75/Meridian-News",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:43.388433+00:00",
+      "event_id": "27271246246",
+      "repo": "Putput12-JP/Vault-Fantasy",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:43.702486+00:00",
+      "event_id": "27271246239",
+      "repo": "kyy0887/kyy0887",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:43.970504+00:00",
+      "event_id": "27271246194",
+      "repo": "Sports-Weather2/mlb-weather-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-15T20:03:44.294296+00:00",
+      "event_id": "27271246150",
+      "repo": "richardvsw/mqtt-status",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 29402,
-    "total_alerts": 2568,
-    "cycles_run": 349,
-    "last_updated": "2026-11-15T14:53:34.411127+00:00"
+    "total_events_seen": 29480,
+    "total_alerts": 2574,
+    "cycles_run": 350,
+    "last_updated": "2026-11-15T20:03:44.591398+00:00"
   }
 }
