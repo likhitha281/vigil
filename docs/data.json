@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-10T00:47:04.335196+00:00",
-      "event_id": "26697039238",
-      "repo": "wacayoub/EPGManager",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:04.684937+00:00",
-      "event_id": "26697038944",
-      "repo": "Greedlord644/klidna-prace",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:04.982272+00:00",
-      "event_id": "26697039282",
-      "repo": "halcwb/GenPRES",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T00:47:05.297453+00:00",
-      "event_id": "26697039387",
-      "repo": "alirezarahimy-code/ticket",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T07:55:46.786714+00:00",
-      "event_id": "26727037618",
-      "repo": "felix0802/emily-evolution",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-10T07:55:47.291426+00:00",
       "event_id": "26727037643",
       "repo": "clau021/cs2-tracker",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T00:06:01.378542+00:00",
+      "event_id": "27289064704",
+      "repo": "jesteen90-cell/Dashbordje90",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T00:06:01.897279+00:00",
+      "event_id": "27289064731",
+      "repo": "open-telemetry/shared-workflows",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T00:06:02.377731+00:00",
+      "event_id": "27289064737",
+      "repo": "Govinthan-KS/NEO-Sentinel-Autonomous-Asteroid-Hazard-Classification-System",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T00:06:02.793754+00:00",
+      "event_id": "27289064762",
+      "repo": "betsyflickinger-max/files.healthcare_price-files-bot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T00:06:03.099785+00:00",
+      "event_id": "27289064866",
+      "repo": "Bidgee182/wwcc-weather-page",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 29480,
-    "total_alerts": 2574,
-    "cycles_run": 350,
-    "last_updated": "2026-11-15T20:03:44.591398+00:00"
+    "total_events_seen": 29557,
+    "total_alerts": 2579,
+    "cycles_run": 351,
+    "last_updated": "2026-11-16T00:06:03.534238+00:00"
   }
 }
