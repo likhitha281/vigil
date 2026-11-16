@@ -1,39 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-10T15:59:55.594773+00:00",
-      "event_id": "26759247627",
-      "repo": "Gallenkamp/AIBarmen",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T15:59:56.279969+00:00",
-      "event_id": "26759247629",
-      "repo": "iovz/meta-rules-dat",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T21:43:31.850740+00:00",
-      "event_id": "26781226299",
-      "repo": "johnyongvv/solarvest-monitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-10T21:43:32.334555+00:00",
       "event_id": "26781226307",
       "repo": "manaflow-ai/cmux",
@@ -2199,12 +2166,45 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T16:47:59.377157+00:00",
+      "event_id": "27357048060",
+      "repo": "blassaut/dappress",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T16:47:59.773836+00:00",
+      "event_id": "27357048120",
+      "repo": "PlattPark/liveboard",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-16T16:48:00.065302+00:00",
+      "event_id": "27357048193",
+      "repo": "Ikalus1988/MisakaNet",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 29637,
-    "total_alerts": 2593,
-    "cycles_run": 352,
-    "last_updated": "2026-11-16T06:58:19.301509+00:00"
+    "total_events_seen": 29722,
+    "total_alerts": 2596,
+    "cycles_run": 353,
+    "last_updated": "2026-11-16T16:48:00.473596+00:00"
   }
 }
