@@ -1,61 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-10T21:43:32.334555+00:00",
-      "event_id": "26781226307",
-      "repo": "manaflow-ai/cmux",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T21:43:32.863601+00:00",
-      "event_id": "26781226426",
-      "repo": "gaidehaha/github-trending-tracker",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T21:43:33.467382+00:00",
-      "event_id": "26781226432",
-      "repo": "caiovfsouza/caiovfsouza",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T21:43:33.900266+00:00",
-      "event_id": "26781226531",
-      "repo": "arslanmehdi1214-droid/gold-alerts",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-10T21:43:34.389279+00:00",
-      "event_id": "26781226575",
-      "repo": "kill662477-cmyk/silver0love",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-10T21:43:34.902558+00:00",
       "event_id": "26781226608",
       "repo": "assisblf/nissan-heritage-tour-booking",
@@ -2199,12 +2144,67 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-17T00:35:42.602206+00:00",
+      "event_id": "27388257772",
+      "repo": "Enzo-cyber2025/5",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-17T00:35:43.104443+00:00",
+      "event_id": "27388257689",
+      "repo": "donkey-kong-forum/streamers-list",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-17T00:35:43.458957+00:00",
+      "event_id": "27388257688",
+      "repo": "arkados/lenka-pohanova-to-prehrajto",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-17T00:35:43.827704+00:00",
+      "event_id": "27388258167",
+      "repo": "shaheemme-maker/stock-market-scraper",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-17T00:35:44.463816+00:00",
+      "event_id": "27388257562",
+      "repo": "goli-devops/hlx-monitoring",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 29722,
-    "total_alerts": 2596,
-    "cycles_run": 353,
-    "last_updated": "2026-11-16T16:48:00.473596+00:00"
+    "total_events_seen": 29799,
+    "total_alerts": 2601,
+    "cycles_run": 354,
+    "last_updated": "2026-11-17T00:35:44.866814+00:00"
   }
 }
