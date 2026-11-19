@@ -1,105 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-12T20:13:38.003032+00:00",
-      "event_id": "26966777868",
-      "repo": "Eduardo-aSantos/Eduardo-aSantos",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-12T20:13:38.283940+00:00",
-      "event_id": "26966777898",
-      "repo": "TanTzeHerng/chess.com-puzzles",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-12T20:13:38.603678+00:00",
-      "event_id": "26966778000",
-      "repo": "gretschsick-lgtm/mesiuma-site",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-12T20:13:38.966006+00:00",
-      "event_id": "26966778082",
-      "repo": "Gxmezz/paper-trading-trend-breakout",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-12T20:13:39.288747+00:00",
-      "event_id": "26966778091",
-      "repo": "Curry09/Curry09.github.io",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-12T20:13:39.590382+00:00",
-      "event_id": "26966778132",
-      "repo": "mung-mungi/mung-mung-market",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-13T01:17:47.529644+00:00",
-      "event_id": "26986983331",
-      "repo": "im-hari-potter/planner-plus",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-13T01:17:48.068897+00:00",
-      "event_id": "26986983050",
-      "repo": "drbcds/college-soccer-tracker",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-13T01:17:48.334748+00:00",
-      "event_id": "26986983207",
-      "repo": "Lela810/Lela810",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-13T01:17:48.602668+00:00",
       "event_id": "26986983164",
       "repo": "beyond-motion/articles_blog",
@@ -2199,12 +2100,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:54.198921+00:00",
+      "event_id": "27597925718",
+      "repo": "leeloocyr/daily-tech-news",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:54.768940+00:00",
+      "event_id": "27597925744",
+      "repo": "GoviGovi1/signals",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:55.254025+00:00",
+      "event_id": "27597925802",
+      "repo": "friese8807/supply-radar",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:55.616513+00:00",
+      "event_id": "27597925845",
+      "repo": "NavyaJaidka/NavyaJaidka",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:56.187477+00:00",
+      "event_id": "27597925861",
+      "repo": "jzavala-gonzalez/calcula-apagones",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:56.638072+00:00",
+      "event_id": "27597925889",
+      "repo": "Build-and-Stably/ctl-daily-brief",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:57.096721+00:00",
+      "event_id": "27597925899",
+      "repo": "markup-ux/knowthevote",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:57.450068+00:00",
+      "event_id": "27597926042",
+      "repo": "kakl007/kk",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-19T05:22:57.822556+00:00",
+      "event_id": "27597926075",
+      "repo": "ehluka/atento-clima",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 30283,
-    "total_alerts": 2665,
-    "cycles_run": 360,
-    "last_updated": "2026-11-18T23:45:27.012968+00:00"
+    "total_events_seen": 30360,
+    "total_alerts": 2674,
+    "cycles_run": 361,
+    "last_updated": "2026-11-19T05:22:58.185532+00:00"
   }
 }
