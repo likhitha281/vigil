@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-20T20:36:47.811499+00:00",
-      "event_id": "27749797297",
-      "repo": "Yehia-AH/auto-clipper",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-20T20:36:48.070047+00:00",
-      "event_id": "27749797285",
-      "repo": "aws-samples/aurora-dsql-samples",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-20T20:36:48.424095+00:00",
-      "event_id": "27749797221",
-      "repo": "awelebienichi/sportybet-results",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-20T20:36:48.676062+00:00",
-      "event_id": "27749797195",
-      "repo": "ziyabicilecommerce-hub/ai-cash-machine",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-20T20:36:49.003429+00:00",
       "event_id": "27749797077",
       "repo": "danimoncerro/saas-platform",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T00:12:39.007047+00:00",
+      "event_id": "28367342018",
+      "repo": "T13424343468/TaoDBM2.0",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T00:12:39.383192+00:00",
+      "event_id": "28367342012",
+      "repo": "caelemiles/crypto-desk",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T00:12:39.552090+00:00",
+      "event_id": "28367341894",
+      "repo": "nicolasanavalon/sii-dte",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T00:12:39.816364+00:00",
+      "event_id": "28367341878",
+      "repo": "nathan545x/News",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 32239,
-    "total_alerts": 2914,
-    "cycles_run": 384,
-    "last_updated": "2026-11-26T15:32:04.280922+00:00"
+    "total_events_seen": 32313,
+    "total_alerts": 2918,
+    "cycles_run": 385,
+    "last_updated": "2026-11-27T00:12:40.137901+00:00"
   }
 }
