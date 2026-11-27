@@ -1,105 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-21T01:54:22.678670+00:00",
-      "event_id": "27772654673",
-      "repo": "monitoreozjqyML1/Monitor_Sismico_SGC",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T01:54:23.125717+00:00",
-      "event_id": "27772654651",
-      "repo": "mwakidenis/ips-software",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T01:54:23.541677+00:00",
-      "event_id": "27772654600",
-      "repo": "patricklee2025/atlas-uptime-public",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T01:54:23.951831+00:00",
-      "event_id": "27772654544",
-      "repo": "johnny4young/puntovivo",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": true,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T01:54:24.557384+00:00",
-      "event_id": "27772654486",
-      "repo": "ganeshtupe-18/ganeshtupe-18",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T09:01:31.243122+00:00",
-      "event_id": "27804632326",
-      "repo": "MaorMichaelov/oded-highlights",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T09:01:31.737038+00:00",
-      "event_id": "27804632257",
-      "repo": "sorapolt9-prog/MSmonitor",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T09:01:32.055037+00:00",
-      "event_id": "27804632912",
-      "repo": "anirudhpdoshi/AGRITrade",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T09:01:32.343450+00:00",
-      "event_id": "27804632897",
-      "repo": "aka014/Weather-Data-Explorer",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-21T09:01:32.713089+00:00",
       "event_id": "27804632821",
       "repo": "scoutbullnurse/Ashampoo-Driver-Updater-2026",
@@ -2199,12 +2100,111 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:55.686560+00:00",
+      "event_id": "28442356614",
+      "repo": "s7a7ic-37/river-data-monitor",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:56.042003+00:00",
+      "event_id": "28442356676",
+      "repo": "doctorneddie-cell/wll",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:56.450128+00:00",
+      "event_id": "28442356677",
+      "repo": "noa1188/proxy_rules",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:56.917447+00:00",
+      "event_id": "28442356705",
+      "repo": "hellxbone/HELLXBONE-DIYOTHE-",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:57.228904+00:00",
+      "event_id": "28442356794",
+      "repo": "nattichai42/apt-live-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:57.518723+00:00",
+      "event_id": "28442356821",
+      "repo": "GeoWizard4645/rax",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:57.863308+00:00",
+      "event_id": "28442356765",
+      "repo": "SocialRed1/SocialRed1.github.io",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:58.169347+00:00",
+      "event_id": "28442356870",
+      "repo": "nikhilsahni10/wgai-entry-form-tracker",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-27T18:36:58.502107+00:00",
+      "event_id": "28442356886",
+      "repo": "mijiaco/moneyball-discord-trade",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 32395,
-    "total_alerts": 2924,
-    "cycles_run": 386,
-    "last_updated": "2026-11-27T08:53:05.603901+00:00"
+    "total_events_seen": 32479,
+    "total_alerts": 2933,
+    "cycles_run": 387,
+    "last_updated": "2026-11-27T18:36:58.845815+00:00"
   }
 }
