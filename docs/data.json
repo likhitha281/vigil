@@ -1,50 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-11-21T21:58:00.658313+00:00",
-      "event_id": "27862953356",
-      "repo": "animeredits/animeredits",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T21:58:00.895837+00:00",
-      "event_id": "27862953471",
-      "repo": "javiAI/faro-liquidation-pressure-map",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T21:58:01.152041+00:00",
-      "event_id": "27862953475",
-      "repo": "SiraTone/weatherbluegrass",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
-      "timestamp": "2026-11-21T21:58:01.412183+00:00",
-      "event_id": "27862953521",
-      "repo": "AEROBOTAMOVE/PROMEGAAEERO",
-      "actor": "github-actions[bot]",
-      "tier1_reasons": [
-        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
-      ],
-      "tier2_diverged": false,
-      "tier2_secret_findings": []
-    },
-    {
       "timestamp": "2026-11-21T21:58:01.731690+00:00",
       "event_id": "27862953529",
       "repo": "openooxml/betteroffice",
@@ -2199,12 +2155,56 @@
       ],
       "tier2_diverged": false,
       "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-28T17:53:19.893079+00:00",
+      "event_id": "28543317506",
+      "repo": "wjdtks255-lgtm/Gateio_signal",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-28T17:53:20.232247+00:00",
+      "event_id": "28543317552",
+      "repo": "Kinslauer/Jaymo-s-Powerpack",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-28T17:53:20.510574+00:00",
+      "event_id": "28543317473",
+      "repo": "rebienalddev/NasIoPing",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
+    },
+    {
+      "timestamp": "2026-11-28T17:53:20.825700+00:00",
+      "event_id": "28543317708",
+      "repo": "Soufyan-01/huurbot",
+      "actor": "github-actions[bot]",
+      "tier1_reasons": [
+        "actor 'github-actions[bot]' has pushed to 8+ distinct repos in the last 300s -- possible compromised token / bot burst"
+      ],
+      "tier2_diverged": false,
+      "tier2_secret_findings": []
     }
   ],
   "stats": {
-    "total_events_seen": 32647,
-    "total_alerts": 2954,
-    "cycles_run": 389,
-    "last_updated": "2026-11-28T09:39:42.416221+00:00"
+    "total_events_seen": 32723,
+    "total_alerts": 2958,
+    "cycles_run": 390,
+    "last_updated": "2026-11-28T17:53:21.128410+00:00"
   }
 }
